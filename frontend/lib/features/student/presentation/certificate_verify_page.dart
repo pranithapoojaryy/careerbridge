@@ -42,7 +42,7 @@ class _CertificateVerifyPageState extends State<CertificateVerifyPage> {
     try {
       final client = Supabase.instance.client;
 
-      // Check student_course_enrollments (ElevateHire-issued certs)
+      // Check student_course_enrollments (CareerBridge-issued certs)
       final enrollment = await client
           .from('student_course_enrollments')
           .select('is_completed, enrolled_at, completed_at, course_id, student_id')
@@ -79,8 +79,8 @@ class _CertificateVerifyPageState extends State<CertificateVerifyPage> {
               : _VerifyState.found;
           _certData = {
             'studentName': studentName,
-            'courseName': courseRes?['title'] ?? 'ElevateHire Course',
-            'issuer': courseRes?['provider_name'] ?? 'ElevateHire',
+            'courseName': courseRes?['title'] ?? 'CareerBridge Course',
+            'issuer': courseRes?['provider_name'] ?? 'CareerBridge',
             'issueDate': issueDate,
             'certId': certId,
           };
@@ -105,7 +105,7 @@ class _CertificateVerifyPageState extends State<CertificateVerifyPage> {
           _certData = {
             'studentName': 'Student',
             'courseName': extCert['certificate_name'] ?? 'Certificate',
-            'issuer': extCert['issuer_name_snapshot'] ?? 'ElevateHire',
+            'issuer': extCert['issuer_name_snapshot'] ?? 'CareerBridge',
             'issueDate': extCert['issue_date'],
             'certId': certId,
           };
@@ -270,7 +270,7 @@ class _CertificateVerifyPageState extends State<CertificateVerifyPage> {
                   const SizedBox(height: 16),
                   _buildField('COURSE', _certData?['courseName'] ?? '—'),
                   const SizedBox(height: 16),
-                  _buildField('ISSUED BY', _certData?['issuer'] ?? 'ElevateHire'),
+                  _buildField('ISSUED BY', _certData?['issuer'] ?? 'CareerBridge'),
                   const SizedBox(height: 16),
                   _buildField('ISSUE DATE', _formatDate(_certData?['issueDate'])),
                 ],
@@ -314,7 +314,7 @@ class _CertificateVerifyPageState extends State<CertificateVerifyPage> {
 
           const SizedBox(height: 32),
           Text(
-            'Verified by ElevateHire\nelevate-hire-app.vercel.app',
+            'Verified by CareerBridge\nelevate-hire-app.vercel.app',
             style: GoogleFonts.outfit(
               fontSize: 11, 
               color: const Color(0xFF94A3B8),

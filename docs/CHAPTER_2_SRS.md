@@ -1,17 +1,17 @@
 # Chapter 2: Software Requirements Specification (SRS)
 
 ## 2.1 Introduction
-The Software Requirements Specification (SRS) document provides a comprehensive description of the **ElevateHire** platform. It outlines the platform's purpose, functional and non-functional requirements, technical stack, and overall system architecture. This document serves as a blueprint for developers, testers, and stakeholders to ensure the final product aligns with the project's vision of bridging the gap between academia and industry.
+The Software Requirements Specification (SRS) document provides a comprehensive description of the **CareerBridge** platform. It outlines the platform's purpose, functional and non-functional requirements, technical stack, and overall system architecture. This document serves as a blueprint for developers, testers, and stakeholders to ensure the final product aligns with the project's vision of bridging the gap between academia and industry.
 
 ## 2.2 Purpose
-The purpose of ElevateHire is to provide a unified, AI-enhanced ecosystem where:
+The purpose of CareerBridge is to provide a unified, AI-enhanced ecosystem where:
 - **Students** can build professional identities, validate skills, and discover careers.
 - **Colleges** can manage placement activities, track student progress, and verify credentials.
 - **Recruiters** can search for verified talent and automate the initial screening process.
 The primary goal is to replace fragmented, manual processes with a streamlined, data-driven automation engine.
 
 ## 2.3 Scope
-The scope includes a full-stack web application featuring an AI Career Assistant (ElevateAI), an automated Resume Matching Engine, a Certification Validation system, and a role-based dashboard for three distinct user types.
+The scope includes a full-stack web application featuring an AI Career Assistant (CareerBridge AI), an automated Resume Matching Engine, a Certification Validation system, and a role-based dashboard for three distinct user types.
 
 ## 2.4 Functional Requirements
 Functional requirements define the specific behaviors and features of the system.
@@ -34,7 +34,7 @@ Functional requirements define the specific behaviors and features of the system
 ### 2.4.4 Recruiter & Job Insights Module
 - **Job Lifecycle Management**: Tools for posting, editing, and closing job opportunities.
 - **AI Matching (Resume Insights)**: Automated analysis of candidate resumes against job-specific requirements using a custom tokenization engine.
-- **ElevateAI Assistant**: A conversational interface for navigating the platform and fetching real-time data.
+- **CareerBridge AI Assistant**: A conversational interface for navigating the platform and fetching real-time data.
 
 ### 2.4.5 Networking & Communication Module
 - **Connection System**: Professional networking capabilities between students and recruiters.
@@ -71,7 +71,7 @@ Non-functional requirements specify the quality attributes and constraints of th
 - **Environment**: Visual Studio Code, Flutter DevTools.
 
 ## 2.7 System Architecture
-ElevateHire follows a **Modular Feature-Based Architecture**:
+CareerBridge follows a **Modular Feature-Based Architecture**:
 - **Presentation Layer**: Flutter widgets organized by feature (Auth, Student, Recruiter, etc.).
 - **Domain Layer**: Services and logic (e.g., `ResumeMatchingService`, `IdentityHelper`).
 - **Data Layer**: Repositories communicating with Supabase via PostgREST and Auth APIs.

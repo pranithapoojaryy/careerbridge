@@ -560,7 +560,7 @@ class _CollegeFeedScreenState extends ConsumerState<CollegeFeedScreen> {
                   icon: Icons.share_outlined,
                   label: 'Share',
                   onTap: () {
-                    Share.share('${post['content']}\n\nSent via ElevateHire');
+                    Share.share('${post['content']}\n\nSent via CareerBridge');
                   },
                 ),
               ],

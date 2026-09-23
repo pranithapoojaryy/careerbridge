@@ -1,7 +1,7 @@
 # Role-Based Authentication System
 
 ## Overview
-Restored and enhanced the role-based authentication system for ElevateHire with separate registration flows for Students, Colleges, and Recruiters.
+Restored and enhanced the role-based authentication system for CareerBridge with separate registration flows for Students, Colleges, and Recruiters.
 
 ## Authentication Flow
 
@@ -140,7 +140,7 @@ profiles (
 
 ### Visual Design
 - **Color-coded roles**: Blue (Student), Green (College), Orange (Recruiter)
-- **Consistent branding**: ElevateHire theme throughout
+- **Consistent branding**: CareerBridge theme throughout
 - **Responsive design**: Works on mobile and desktop
 - **Smooth animations**: Flutter Animate for transitions
 
@@ -167,4 +167,4 @@ profiles (
 4. **Role-based Login**: Verify correct dashboard routing
 5. **Cross-role Interactions**: Student-college, recruiter-college workflows
 
-The role-based authentication system is now fully functional and provides a solid foundation for the multi-user ElevateHire platform.
+The role-based authentication system is now fully functional and provides a solid foundation for the multi-user CareerBridge platform.

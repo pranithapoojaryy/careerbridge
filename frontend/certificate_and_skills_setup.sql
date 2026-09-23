@@ -1,5 +1,5 @@
 -- ============================================
--- ELEVATEHIRE - CERTIFICATES & SKILL SCORING
+-- CareerBridge - CERTIFICATES & SKILL SCORING
 -- Adds certificate generation and skill tracking
 -- ============================================
 

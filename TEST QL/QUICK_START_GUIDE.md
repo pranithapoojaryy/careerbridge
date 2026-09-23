@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide - ElevateHire Email System
+# 🚀 Quick Start Guide - CareerBridge Email System
 
 ## ✅ **What's Done:**
 
@@ -40,8 +40,8 @@ start ms-settings:developers
 {
   "emails": ["your-email@example.com"],
   "collegeName": "Test College",
-  "inviteLink": "https://elevatehire.app/invite?code=TEST123",
-  "customMessage": "Welcome to ElevateHire! This is a test email."
+  "inviteLink": "https://CareerBridge.app/invite?code=TEST123",
+  "customMessage": "Welcome to CareerBridge! This is a test email."
 }
 ```
 

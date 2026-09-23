@@ -113,8 +113,8 @@ serve(async (req) => {
               <p><strong>Questions?</strong> Contact the event organizers or reply to this email for more information.</p>
             </div>
             <div class="footer">
-              <p>This invitation was sent by ${collegeName} through ElevateHire</p>
-              <p>© 2024 ElevateHire. All rights reserved.</p>
+              <p>This invitation was sent by ${collegeName} through CareerBridge</p>
+              <p>© 2024 CareerBridge. All rights reserved.</p>
             </div>
           </div>
         </body>
@@ -128,7 +128,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${collegeName} Events <events@elevatehire.app>`,
+          from: `${collegeName} Events <events@CareerBridge.app>`,
           to: [student.email],
           subject: `🎉 You're Invited: ${eventTitle} - ${eventDateTime.toLocaleDateString()}`,
           html: emailTemplate,

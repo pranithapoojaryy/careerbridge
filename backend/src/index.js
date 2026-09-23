@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'ElevateHire Backend is running!' });
+  res.json({ message: 'CareerBridge Backend is running!' });
 });
 
 // Routes

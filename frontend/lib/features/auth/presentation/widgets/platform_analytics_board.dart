@@ -162,7 +162,7 @@ class PlatformAnalyticsBoard extends ConsumerWidget {
         ),
         const SizedBox(height: 16),
         Text(
-          'ElevateHire Insights',
+          'CareerBridge Insights',
           style: GoogleFonts.outfit(
             fontSize: isMobile ? 32 : 48,
             fontWeight: FontWeight.w900,
@@ -1067,7 +1067,7 @@ class PlatformAnalyticsBoard extends ConsumerWidget {
 
     String orgName = postData['org_name'] ?? '';
     // Fix for user request: Override default/empty with correct institute
-    if (orgName == 'ElevateHire Academy' || orgName.isEmpty) {
+    if (orgName == 'CareerBridge Academy' || orgName.isEmpty) {
       orgName = 'Poornaprajna Institute of Managment';
     }
 

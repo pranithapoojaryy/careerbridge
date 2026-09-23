@@ -116,7 +116,7 @@ class _ClaySidebarState extends State<ClaySidebar> {
                   ),
                   // No vertical spacing here
                   Text(
-                    'ElevateHire',
+                    'CareerBridge',
                     style: GoogleFonts.outfit(
                       fontSize: 32,
                       fontWeight: FontWeight.bold,

@@ -12,7 +12,7 @@
 ## Part 1: Fix Assessment Questions
 
 ```sql
-${include:c:\Users\ASUS\Desktop\ElevateHire\fix_assessment_questions.sql}
+${include:c:\Users\ASUS\Desktop\CareerBridge\fix_assessment_questions.sql}
 ```
 
 ---
@@ -20,7 +20,7 @@ ${include:c:\Users\ASUS\Desktop\ElevateHire\fix_assessment_questions.sql}
 ## Part 2: Add Analytics Functions
 
 ```sql
-${include:c:\Users\ASUS\Desktop\ElevateHire\analytics_functions.sql}
+${include:c:\Users\ASUS\Desktop\CareerBridge\analytics_functions.sql}
 ```
 
 ---

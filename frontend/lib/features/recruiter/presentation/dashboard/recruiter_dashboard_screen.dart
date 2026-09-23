@@ -104,7 +104,7 @@ class _RecruiterDashboardScreenState
                   elevation: 0,
                   centerTitle: true,
                   title: Text(
-                    'ELEVATEHIRE',
+                    'CareerBridge',
                     style: GoogleFonts.outfit(
                       fontSize: 18,
                       fontWeight: FontWeight.w900,

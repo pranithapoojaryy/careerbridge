@@ -1,10 +1,10 @@
 # Chapter 1: Synopsis
 
 ## 1.1 Title of the Project
-**ElevateHire: Comprehensive Student-College Management & Placement Platform**
+**CareerBridge: Comprehensive Student-College Management & Placement Platform**
 
 ## 1.2 Objective of the Project
-The primary objective of ElevateHire is to bridge the gap between academia and industry by creating a unified ecosystem that streamlines the placement process.
+The primary objective of CareerBridge is to bridge the gap between academia and industry by creating a unified ecosystem that streamlines the placement process.
 Key objectives include:
 *   **Automation**: Automating manual tasks like student data collection, resume building, and eligibility filtering.
 *   **Validation**: Ensuring the authenticity of student skills and certifications through a Verification Engine.
@@ -41,7 +41,7 @@ Developed as a full-stack solution using modern web technologies.
     *   Network: Internet connection (3G/4G/5G/Wi-Fi).
 
 ## 1.5 Structure of the program
-The ElevateHire platform follows a feature-based architecture with separate frontend and backend layers:
+The CareerBridge platform follows a feature-based architecture with separate frontend and backend layers:
 
 ### 1.5.1 Frontend Architecture
 Built with **Flutter**, the frontend uses:
@@ -58,7 +58,7 @@ Built with **Flutter**, the frontend uses:
     *   **Aptitude Center**: Access to practice quizzes with dynamically generated questions based on skill gaps.
     *   **Job Discovery**: Single interface for viewing and applying to college-posted and recruiter-posted opportunities.
     *   **Certificate Management**: Uploading and managing certifications with category-based validation status and skill point calculation.
-    *   **AI Job Analyzer**: Advanced custom-built tools including "AI Resume Insights" for job matching and "Ask ElevateAI" career assistant.
+    *   **AI Job Analyzer**: Advanced custom-built tools including "AI Resume Insights" for job matching and "Ask CareerBridge AI" career assistant.
         *   **Matching Engine**: A proprietary algorithmic engine that tokenizes resume text and job requirements to calculate a coverage-based score locally, without external AI APIs.
         *   **Self-Screening**: Real-time feedback for students allowing them to identify skill gaps against recruiter-posted requirements before applying.
         *   **Recruiter Integration**: Deeply integrated into the recruiter portal, allowing for automated candidate screening based on objective data.

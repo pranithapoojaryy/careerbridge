@@ -92,7 +92,7 @@ class StudentExportService {
                 mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
                 children: [
                   pw.Text(
-                    'ElevateHire - Campus Placement Platform',
+                    'CareerBridge - Campus Placement Platform',
                     style: pw.TextStyle(
                       font: fontOutfit,
                       fontSize: 10,

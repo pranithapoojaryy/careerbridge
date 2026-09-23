@@ -1,6 +1,6 @@
 # Email System Setup Guide
 
-This guide covers the complete setup of the email communication system for ElevateHire, including student invitations, bulk messaging, assessment notifications, and event invitations.
+This guide covers the complete setup of the email communication system for CareerBridge, including student invitations, bulk messaging, assessment notifications, and event invitations.
 
 ## 📋 Overview
 
@@ -115,7 +115,7 @@ The email service is already integrated in:
 await ref.read(sendStudentInvitationsProvider({
   'emails': ['student1@college.edu', 'student2@college.edu'],
   'collegeName': 'ABC College',
-  'inviteLink': 'https://elevatehire.app/invite?code=ABC123',
+  'inviteLink': 'https://CareerBridge.app/invite?code=ABC123',
   'customMessage': 'Welcome to our placement program!',
 }).future);
 

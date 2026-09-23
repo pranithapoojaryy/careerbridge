@@ -114,7 +114,7 @@ class _RoleSelectionScreenState extends State<RoleSelectionScreen> {
                     ).animate().fadeIn(delay: 200.ms).slideY(begin: -0.2, end: 0),
                     const SizedBox(height: 8),
                     Text(
-                      'Select how you want to use ElevateHire',
+                      'Select how you want to use CareerBridge',
                       style: GoogleFonts.outfit(
                         fontSize: 16,
                         color: Colors.grey[600],

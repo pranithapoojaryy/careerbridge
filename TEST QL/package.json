@@ -1,7 +1,7 @@
 {
-  "name": "elevatehire-flutter-web",
+  "name": "CareerBridge-flutter-web",
   "version": "1.0.0",
-  "description": "ElevateHire - Student-College Management Platform",
+  "description": "CareerBridge - Student-College Management Platform",
   "scripts": {
     "build": "chmod +x build.sh && ./build.sh",
     "dev": "cd frontend && flutter run -d web-server --web-port 3000",
@@ -14,7 +14,7 @@
     "college-platform",
     "supabase"
   ],
-  "author": "ElevateHire Team",
+  "author": "CareerBridge Team",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"

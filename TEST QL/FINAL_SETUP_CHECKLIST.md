@@ -1,4 +1,4 @@
-# ✅ Final Setup Checklist - ElevateHire Email System
+# ✅ Final Setup Checklist - CareerBridge Email System
 
 ## 🎯 Quick Start (5 Minutes)
 
@@ -48,9 +48,9 @@ flutter run
 ```bash
 # Set environment variables
 supabase secrets set RESEND_API_KEY=re_YOUR_RESEND_API_KEY
-supabase secrets set EMAIL_FROM_DOMAIN=elevatehire.app
-supabase secrets set EMAIL_FROM_NAME=ElevateHire
-supabase secrets set APP_URL=https://elevatehire.app
+supabase secrets set EMAIL_FROM_DOMAIN=CareerBridge.app
+supabase secrets set EMAIL_FROM_NAME=CareerBridge
+supabase secrets set APP_URL=https://CareerBridge.app
 ```
 
 ### Step 3: Deploy Functions

@@ -1,10 +1,10 @@
 # Chapter 4: Database Design
 
 ## 4.1 Introduction
-The Database Design of **ElevateHire** is built upon a highly normalized and modular **PostgreSQL** schema managed via Supabase. Significant emphasis is placed on relational integrity through enforced foreign keys and role-based access control via Row-Level Security (RLS). The schema is designed to handle high-concurrency operations across recruitment, institutional management, and real-time learning.
+The Database Design of **CareerBridge** is built upon a highly normalized and modular **PostgreSQL** schema managed via Supabase. Significant emphasis is placed on relational integrity through enforced foreign keys and role-based access control via Row-Level Security (RLS). The schema is designed to handle high-concurrency operations across recruitment, institutional management, and real-time learning.
 
 ## 4.2 Dataset Overview (Database Overview)
-The ElevateHire dataset is structured into logical modules to ensure scalability and maintainability. It consists of over 70 tables, capturing the complete lifecycle of a student from skill acquisition to job placement.
+The CareerBridge dataset is structured into logical modules to ensure scalability and maintainability. It consists of over 70 tables, capturing the complete lifecycle of a student from skill acquisition to job placement.
 
 ### Module Breakdown:
 - **Identity & Institutional**: Manages users, profiles (Student/Recruiter), and organizational hierarchies (Departments/Programs).

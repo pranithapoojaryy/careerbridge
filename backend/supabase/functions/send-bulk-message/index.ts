@@ -56,8 +56,8 @@ serve(async (req) => {
             </p>
           </div>
           <div class="footer">
-            <p>This message was sent through ElevateHire</p>
-            <p>© 2024 ElevateHire. All rights reserved.</p>
+            <p>This message was sent through CareerBridge</p>
+            <p>© 2024 CareerBridge. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -78,7 +78,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${senderName} <noreply@elevatehire.app>`,
+          from: `${senderName} <noreply@CareerBridge.app>`,
           to: [email],
           subject: subject,
           html: emailTemplate,

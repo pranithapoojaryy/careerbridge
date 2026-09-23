@@ -1,7 +1,7 @@
-# ElevateHire Email System Deployment Script
+# CareerBridge Email System Deployment Script
 # This script sets up the complete email system with Resend API
 
-Write-Host "🚀 ElevateHire Email System Deployment" -ForegroundColor Cyan
+Write-Host "🚀 CareerBridge Email System Deployment" -ForegroundColor Cyan
 Write-Host "=======================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -24,10 +24,10 @@ supabase secrets set RESEND_API_KEY=re_YOUR_RESEND_API_KEY
 
 # Set email configuration
 Write-Host "⚙️ Setting email configuration..." -ForegroundColor White
-supabase secrets set EMAIL_FROM_DOMAIN=elevatehire.app
-supabase secrets set EMAIL_FROM_NAME=ElevateHire
-supabase secrets set APP_URL=https://elevatehire.app
-supabase secrets set INVITE_BASE_URL=https://elevatehire.app/invite
+supabase secrets set EMAIL_FROM_DOMAIN=CareerBridge.app
+supabase secrets set EMAIL_FROM_NAME=CareerBridge
+supabase secrets set APP_URL=https://CareerBridge.app
+supabase secrets set INVITE_BASE_URL=https://CareerBridge.app/invite
 
 Write-Host ""
 Write-Host "🗄️ Step 2: Setting up database..." -ForegroundColor Yellow

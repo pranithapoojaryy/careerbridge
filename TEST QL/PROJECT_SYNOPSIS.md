@@ -1,10 +1,10 @@
 # Project Synopsis
 
 ## 1.1 Title of the Project
-**ElevateHire: Comprehensive Student-College Management & Placement Platform**
+**CareerBridge: Comprehensive Student-College Management & Placement Platform**
 
 ## 1.2 Objective of the Project
-The primary objective of ElevateHire is to bridge the gap between academia and industry by creating a unified ecosystem that streamlines the placement process.
+The primary objective of CareerBridge is to bridge the gap between academia and industry by creating a unified ecosystem that streamlines the placement process.
 Key objectives include:
 *   **Automation**: Automating manual tasks like student data collection, resume building, and eligibility filtering.
 *   **Validation**: Ensuring the authenticity of student skills and certifications through a Verification Engine.
@@ -44,7 +44,7 @@ Developed as a full-stack solution using modern web technologies.
 
 ### 1.5.1 Analysis
 *   **Problem Statement**: Traditional placement processes are plagued by manual data entry, unverified student claims, chaotic communication via scattered emails, and difficulty in matching the right student to the right job based on actual skills.
-*   **Proposed System**: ElevateHire analyzes these pain points and offers a centralized solution. It integrates a "Trust Score" for certifications, uses AI to generate relevant practice questions, and provides a structured hierarchy (Department -> Program -> Batch) to mirror the physical college structure digitally. The system analyzes user inputs (resumes, test scores) to provide actionable insights.
+*   **Proposed System**: CareerBridge analyzes these pain points and offers a centralized solution. It integrates a "Trust Score" for certifications, uses AI to generate relevant practice questions, and provides a structured hierarchy (Department -> Program -> Batch) to mirror the physical college structure digitally. The system analyzes user inputs (resumes, test scores) to provide actionable insights.
 
 ### 1.5.2 Data Structures
 The project utilizes a relational database (PostgreSQL) with support for JSONB to handle semi-structured data. Key data structures include:

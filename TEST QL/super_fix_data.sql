@@ -16,7 +16,7 @@ BEGIN
     INSERT INTO public.organizations (id, name, type, description, short_code, created_by)
     VALUES (
         target_org_id, 
-        'ElevateHire Academy', 
+        'CareerBridge Academy', 
         'college', 
         'Recovered Organization',
         'EHA',

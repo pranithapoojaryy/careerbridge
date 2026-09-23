@@ -32,7 +32,7 @@ class CertificateScreen extends StatelessWidget {
       issuedAt: completionDate,
       courseScore: 100.0, // Assumed 100% since completed
       finalGrade: 'A', // Placeholder
-      providerName: 'ElevateHire', // Default provider
+      providerName: 'CareerBridge', // Default provider
       courseTitle: courseName,
       studentName: studentName,
       skillsAcquired: ['Course Completion'], // Placeholder

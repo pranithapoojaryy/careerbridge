@@ -1,4 +1,4 @@
-# 🚀 How to Make ElevateHire Email System Functional
+# 🚀 How to Make CareerBridge Email System Functional
 
 ## 📋 Prerequisites
 
@@ -57,9 +57,9 @@ AND table_name IN (
 supabase secrets set RESEND_API_KEY=re_YOUR_RESEND_API_KEY
 
 # Set email configuration
-supabase secrets set EMAIL_FROM_DOMAIN=elevatehire.app
-supabase secrets set EMAIL_FROM_NAME=ElevateHire
-supabase secrets set APP_URL=https://elevatehire.app
+supabase secrets set EMAIL_FROM_DOMAIN=CareerBridge.app
+supabase secrets set EMAIL_FROM_NAME=CareerBridge
+supabase secrets set APP_URL=https://CareerBridge.app
 
 # Verify secrets
 supabase secrets list
@@ -75,8 +75,8 @@ supabase secrets list
 2. Navigate to **Settings** → **Edge Functions**
 3. Add environment variables:
    - `RESEND_API_KEY`: `re_YOUR_RESEND_API_KEY`
-   - `EMAIL_FROM_DOMAIN`: `elevatehire.app`
-   - `EMAIL_FROM_NAME`: `ElevateHire`
+   - `EMAIL_FROM_DOMAIN`: `CareerBridge.app`
+   - `EMAIL_FROM_NAME`: `CareerBridge`
 
 ## 📧 Step 3: Deploy Edge Functions
 
@@ -148,7 +148,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ElevateHire',
+      title: 'CareerBridge',
       home: const CollegeDashboardScreen(),
     );
   }
@@ -254,7 +254,7 @@ curl -X POST 'https://YOUR_PROJECT.supabase.co/functions/v1/send-student-invites
   -d '{
     "emails": ["test@example.com"],
     "collegeName": "Test College",
-    "inviteLink": "https://elevatehire.app/invite?code=TEST123",
+    "inviteLink": "https://CareerBridge.app/invite?code=TEST123",
     "customMessage": "Welcome to our platform!"
   }'
 ```
@@ -445,7 +445,7 @@ flutter run
 
 ## 🎉 You're Done!
 
-Your ElevateHire email system is now fully functional! Students can be invited, bulk messages can be sent, and all email communications are tracked in the database.
+Your CareerBridge email system is now fully functional! Students can be invited, bulk messages can be sent, and all email communications are tracked in the database.
 
 **Next Steps:**
 1. Customize email templates

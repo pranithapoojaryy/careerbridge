@@ -147,7 +147,7 @@ class EmailService {
     required String inviteCode,
   }) {
     // This would be your app's deep link or web URL
-    return 'https://elevatehire.app/invite?college=$collegeId&code=$inviteCode';
+    return 'https://CareerBridge.app/invite?college=$collegeId&code=$inviteCode';
   }
 
   // Create invite codes for tracking

@@ -49,7 +49,7 @@ If using CLI, Vercel will ask:
 - **Set up and deploy?** → Yes
 - **Which scope?** → Your account
 - **Link to existing project?** → No
-- **Project name?** → elevatehire-app (or any name)
+- **Project name?** → CareerBridge-app (or any name)
 - **Directory?** → `./frontend/build/web`
 
 ## That's it! 🎉

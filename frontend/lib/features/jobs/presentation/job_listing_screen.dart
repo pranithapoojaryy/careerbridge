@@ -658,7 +658,7 @@ class _JobListingScreenState extends ConsumerState<JobListingScreen> {
             builder: (context) => AlertDialog(
               title: const Text('AI Analysis Complete'),
               content: const Text(
-                'AI has extracted your details, skills, and projects. Would you like to update your ElevateHire profile with this information?',
+                'AI has extracted your details, skills, and projects. Would you like to update your CareerBridge profile with this information?',
               ),
               actions: [
                 TextButton(

@@ -9,7 +9,7 @@ DECLARE
     student1_id UUID := gen_random_uuid();
     student2_id UUID := gen_random_uuid();
 BEGIN
-    -- Get the course ID (ElevateHire)
+    -- Get the course ID (CareerBridge)
     SELECT id INTO course_id FROM learning_courses WHERE provider_id = active_org_id LIMIT 1;
 
     -- 1. Create Dummy Student 1 (Rahul)

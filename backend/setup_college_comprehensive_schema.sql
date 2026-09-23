@@ -820,4 +820,4 @@ ON CONFLICT (name) DO NOTHING;
 -- =====================================================
 
 -- Add a comment to indicate successful completion
-COMMENT ON SCHEMA public IS 'ElevateHire College Schema - Comprehensive database structure for college-side features';
+COMMENT ON SCHEMA public IS 'CareerBridge College Schema - Comprehensive database structure for college-side features';

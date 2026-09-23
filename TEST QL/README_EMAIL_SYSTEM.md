@@ -1,4 +1,4 @@
-# 📧 ElevateHire Email System - Complete Guide
+# 📧 CareerBridge Email System - Complete Guide
 
 ## 🚀 Quick Start (Choose One Method)
 
@@ -20,7 +20,7 @@ cd backend
 ## 📁 Project Structure
 
 ```
-ElevateHire/
+CareerBridge/
 ├── backend/
 │   ├── supabase/functions/          # Edge Functions for email sending
 │   │   ├── send-student-invites/
@@ -66,9 +66,9 @@ re_YOUR_RESEND_API_KEY
 ### Supabase Environment Variables
 ```bash
 RESEND_API_KEY=re_YOUR_RESEND_API_KEY
-EMAIL_FROM_DOMAIN=elevatehire.app
-EMAIL_FROM_NAME=ElevateHire
-APP_URL=https://elevatehire.app
+EMAIL_FROM_DOMAIN=CareerBridge.app
+EMAIL_FROM_NAME=CareerBridge
+APP_URL=https://CareerBridge.app
 ```
 
 ## 📧 Email Features
@@ -120,7 +120,7 @@ curl -X POST 'https://your-project.supabase.co/functions/v1/send-student-invites
   -d '{
     "emails": ["test@example.com"],
     "collegeName": "Test College",
-    "inviteLink": "https://elevatehire.app/invite?code=TEST123"
+    "inviteLink": "https://CareerBridge.app/invite?code=TEST123"
   }'
 ```
 
@@ -252,7 +252,7 @@ Your system is working when:
 
 ## 🎉 You're Ready!
 
-Your ElevateHire email system is now fully configured and ready to send professional emails to students!
+Your CareerBridge email system is now fully configured and ready to send professional emails to students!
 
 **Key Features**:
 - ✅ Beautiful, responsive email templates

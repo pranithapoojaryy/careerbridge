@@ -239,7 +239,7 @@ class _RecruiterHomeScreenState extends ConsumerState<RecruiterHomeScreen> {
         ),
         const Spacer(),
         Text(
-          'ELEVATEHIRE',
+          'CareerBridge',
           style: GoogleFonts.outfit(
             fontSize: 24,
             fontWeight: FontWeight.w900,

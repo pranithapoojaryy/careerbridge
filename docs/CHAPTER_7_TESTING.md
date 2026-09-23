@@ -1,7 +1,7 @@
 # Chapter 7: Testing
 
 ## 7.1 Introduction
-Testing is a critical phase in the **ElevateHire** development lifecycle, ensuring that the platform operates reliably, securely, and in accordance with the user requirements. This chapter describes the testing strategy, including objectives, methodologies, and specific test cases used to validate the system's functionality and performance.
+Testing is a critical phase in the **CareerBridge** development lifecycle, ensuring that the platform operates reliably, securely, and in accordance with the user requirements. This chapter describes the testing strategy, including objectives, methodologies, and specific test cases used to validate the system's functionality and performance.
 
 ## 7.2 Testing Objectives
 The primary objectives of the testing phase are:
@@ -12,7 +12,7 @@ The primary objectives of the testing phase are:
 - **Performance**: Validating that PDF extraction and analysis occur within the target time frame (2-3 seconds).
 
 ## 7.3 Testing Methods
-ElevateHire employed a combination of manual and automated testing methods:
+CareerBridge employed a combination of manual and automated testing methods:
 - **Manual Testing**: Used for validating UI components, navigation flows, and user experience patterns. This involved interactive testing using the Flutter DevTools.
 - **Automated Unit Testing**: Focused on business logic and service layers (e.g., scoring algorithms and data transformation functions).
 - **Simulated Environment Testing**: Testing the system with diverse datasets (mock profiles, various resume formats) to ensure robust performance.
@@ -65,6 +65,6 @@ Final validation by end-users to ensure the system meets business needs.
 | TC-13 | Resume | Export resume as "Modern Clean" PDF. | PDF content matches profile data perfectly. | PDF generated. | Pass |
 | TC-14 | Identity | Change profile picture in settings. | New avatar reflects across all portals. | Avatar updated. | Pass |
 | TC-15 | Drive | College admin closes an active drive. | Drive status updates to "Completed" globally. | Status updated. | Pass |
-| TC-16 | ElevateAI | Ask "How to post a job?" or "Practice arena."| System should provide guide and offer navigation.| Guide shown & Navigated.| Pass |
-| TC-17 | ElevateAI | Query for a specific student or course name. | AI should find entity and offer profile/details.| Entity found & Link offered.| Pass |
+| TC-16 | CareerBridge AI | Ask "How to post a job?" or "Practice arena."| System should provide guide and offer navigation.| Guide shown & Navigated.| Pass |
+| TC-17 | CareerBridge AI | Query for a specific student or course name. | AI should find entity and offer profile/details.| Entity found & Link offered.| Pass |
 | TC-18 | Messaging | Send real-time message to a connected peer. | Message should appear instantly for the recipient.| Message received (WSS). | Pass |

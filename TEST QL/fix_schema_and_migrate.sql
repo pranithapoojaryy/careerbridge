@@ -32,7 +32,7 @@ BEGIN
     UPDATE learning_courses
     SET provider_id = active_org_id
     WHERE provider_id = old_org_id
-       OR title = 'ElevateHire';
+       OR title = 'CareerBridge';
 
     -- C. Link User Profile
     UPDATE profiles

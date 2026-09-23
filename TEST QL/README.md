@@ -1,8 +1,8 @@
-# ElevateHire
+# CareerBridge
 
 **Comprehensive Student-College Management & Placement Platform**
 
-ElevateHire is an advanced, full-stack placement management ecosystem that seamlessly connects colleges, students, and recruiters through an intelligent platform designed to revolutionize the recruitment and academic management process.
+CareerBridge is an advanced, full-stack placement management ecosystem that seamlessly connects colleges, students, and recruiters through an intelligent platform designed to revolutionize the recruitment and academic management process.
 
 ## 🚀 Core Features & Modules
 
@@ -96,7 +96,7 @@ ElevateHire is an advanced, full-stack placement management ecosystem that seaml
 ## 📁 Comprehensive Project Structure
 
 ```
-ElevateHire/
+CareerBridge/
 ├── frontend/                          # Flutter Application
 │   ├── lib/
 │   │   ├── core/                      # Core Services & Utilities
@@ -172,8 +172,8 @@ ElevateHire/
 #### 1. **Clone & Setup Repository**
 ```bash
 # Clone the repository
-git clone https://github.com/chatbca/ElevateHire.git
-cd ElevateHire
+git clone https://github.com/chatbca/CareerBridge.git
+cd CareerBridge
 
 # Setup Flutter dependencies
 cd frontend
@@ -580,7 +580,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **Cost Reduction** - 50% reduction in manual processes
 
 ### 🔮 **Future Vision**
-ElevateHire is positioned to become the **leading placement management platform** in the education sector, with plans for:
+CareerBridge is positioned to become the **leading placement management platform** in the education sector, with plans for:
 - **AI-powered matching** algorithms
 - **Global expansion** with multi-language support
 - **Enterprise integrations** with major HR systems
@@ -589,6 +589,6 @@ ElevateHire is positioned to become the **leading placement management platform*
 
 ---
 
-**ElevateHire** - *Transforming careers through intelligent placement management.*
+**CareerBridge** - *Transforming careers through intelligent placement management.*
 
 **Ready for production deployment and scaling to serve thousands of colleges and millions of students worldwide! 🌍**

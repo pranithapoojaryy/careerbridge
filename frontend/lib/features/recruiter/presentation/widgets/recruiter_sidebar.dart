@@ -101,7 +101,7 @@ class _RecruiterSidebarState extends State<RecruiterSidebar>
                 _buildSectionHeader('AI Assistant', 5),
                 _buildNavItem(
                   99,
-                  'Ask ElevateAI (Beta)',
+                  'Ask CareerBridge AI (Beta)',
                   Icons.auto_awesome_rounded,
                 ),
               ],
@@ -197,7 +197,7 @@ class _RecruiterSidebarState extends State<RecruiterSidebar>
                 colors: [Colors.orange, Colors.deepOrange],
               ).createShader(bounds),
               child: Text(
-                'ElevateHire',
+                'CareerBridge',
                 style: GoogleFonts.outfit(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,

@@ -1,12 +1,12 @@
-# ElevateHire: Full Technical Manual
+# CareerBridge: Full Technical Manual
 
-This manual provides a detailed architectural and functional breakdown of the **ElevateHire** application. It is designed for technical stakeholders, developers, and administrators who need to understand the platform's core systems.
+This manual provides a detailed architectural and functional breakdown of the **CareerBridge** application. It is designed for technical stakeholders, developers, and administrators who need to understand the platform's core systems.
 
 ---
 
 ## 🏗️ 1. Architecture Overview: Flutter & Dart
 
-ElevateHire is built on a modern, reactive stack designed for high performance and scalability across Web and Mobile.
+CareerBridge is built on a modern, reactive stack designed for high performance and scalability across Web and Mobile.
 
 ### What is Flutter?
 Flutter is an open-source UI software development kit created by Google. It allows for a single codebase that compiles to **native machine code** for high-end performance.
@@ -39,9 +39,9 @@ The database (PostgreSQL) uses **RLS policies**. For example:
 
 ---
 
-## 🧠 3. ElevateAI: The Hybrid Intelligence Model
+## 🧠 3. CareerBridge AI: The Hybrid Intelligence Model
 
-ElevateAI serves as a conversational bridge between the user and the platform's features.
+CareerBridge AI serves as a conversational bridge between the user and the platform's features.
 
 ### Hybrid Strategy
 - **Local Rules**: For simple commands like "Go to my profile," the app uses local pattern-matching. This is instantaneous and works without any API cost.

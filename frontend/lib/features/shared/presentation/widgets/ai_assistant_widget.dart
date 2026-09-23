@@ -85,8 +85,8 @@ class AIAssistantNotifier extends Notifier<AIAssistantState> {
       messages: [
         ChatMessage(
           text: user == null
-              ? "Hi! I'm ElevateAI. 🚀\n\nPlease login or signup to access my full features! I can help you find your way around once you're in."
-              : "Hi! I'm ElevateAI, your career sidekick. 🚀\n\nI can help you find sections in the app or show you sample questions. What can I do for you today?\n\n(Tip: Say 'help' to see what I can do!)",
+              ? "Hi! I'm CareerBridge AI. 🚀\n\nPlease login or signup to access my full features! I can help you find your way around once you're in."
+              : "Hi! I'm CareerBridge AI, your career sidekick. 🚀\n\nI can help you find sections in the app or show you sample questions. What can I do for you today?\n\n(Tip: Say 'help' to see what I can do!)",
           isUser: false,
         ),
       ],
@@ -173,11 +173,11 @@ class AIAssistantNotifier extends Notifier<AIAssistantState> {
 
       final rolePrompts = {
         'student':
-            'You are ElevateAI Career Coach. Student: $userName. Help them find app sections: /interview-prep, /interview-learning, /student-profile, /dashboard.',
+            'You are CareerBridge AI Career Coach. Student: $userName. Help them find app sections: /interview-prep, /interview-learning, /student-profile, /dashboard.',
         'college_admin':
-            'You are ElevateAI Admin Assistant. Admin: $userName. Sections: /college-admin/registrations, /college-admin/drives.',
+            'You are CareerBridge AI Admin Assistant. Admin: $userName. Sections: /college-admin/registrations, /college-admin/drives.',
         'recruiter':
-            'You are ElevateAI Recruiter Assistant. Recruiter: $userName. Sections: /recruiter/search, /recruiter/jobs, /recruiter/applications.',
+            'You are CareerBridge AI Recruiter Assistant. Recruiter: $userName. Sections: /recruiter/search, /recruiter/jobs, /recruiter/applications.',
       };
 
       const String navigationAtlas = """
@@ -244,8 +244,8 @@ NAVIGATION ATLAS (ONLY USE THESE INDICES):
         headers: {
           'Authorization': 'Bearer $apiKey',
           'Content-Type': 'application/json',
-          'HTTP-Referer': 'https://elevatehire.app', // Required by OpenRouter
-          'X-Title': 'ElevateHire AI',
+          'HTTP-Referer': 'https://CareerBridge.app', // Required by OpenRouter
+          'X-Title': 'CareerBridge AI',
         },
         body: jsonEncode({
           'model':
@@ -386,7 +386,7 @@ NAVIGATION ATLAS (ONLY USE THESE INDICES):
             query.toLowerCase() == "hey" ||
             query.toLowerCase() == "hola") {
           reply =
-              "Hello! I'm ElevateAI. Ready to help you navigate and succeed! What do you need?";
+              "Hello! I'm CareerBridge AI. Ready to help you navigate and succeed! What do you need?";
         } else if (query.contains("bye") || query.contains("goodbye")) {
           reply = "Goodbye! Have a productive day! 👋";
         }
@@ -652,7 +652,7 @@ NAVIGATION ATLAS (ONLY USE THESE INDICES):
             query.contains("who r u") ||
             (query.contains("your name") && query.contains("what"))) {
           reply =
-              "I'm **ElevateAI**, your personal career assistant! 🤖\n\nI can help you find jobs, connect with people, discover courses, and navigate the platform. Just ask!";
+              "I'm **CareerBridge AI**, your personal career assistant! 🤖\n\nI can help you find jobs, connect with people, discover courses, and navigate the platform. Just ask!";
           action = null;
         }
         // Recent Activities: New Jobs
@@ -741,12 +741,12 @@ NAVIGATION ATLAS (ONLY USE THESE INDICES):
             reply = "I had trouble fetching recent members.";
           }
         }
-        // General Knowledge: ElevateHire
-        else if (query.contains("elevatehire") ||
+        // General Knowledge: CareerBridge
+        else if (query.contains("CareerBridge") ||
             query.contains("app") &&
                 (query.contains("what") || query.contains("about"))) {
           reply =
-              "**ElevateHire** is your comprehensive career platform bridging the gap between students, colleges, and recruiters. We offer:\n\n"
+              "**CareerBridge** is your comprehensive career platform bridging the gap between students, colleges, and recruiters. We offer:\n\n"
               "• **For Students:** AI-driven job matching, interview prep, and skill building.\n"
               "• **For Colleges:** Placement tracking and student performance analytics.\n"
               "• **For Recruiters:** Efficient hiring tools and candidate discovery.\n\n"
@@ -844,7 +844,7 @@ NAVIGATION ATLAS (ONLY USE THESE INDICES):
             query.contains("how to use")) {
           if (state.userRole == 'student') {
             reply =
-                "I'm ElevateAI! I can help you navigate:\n\n"
+                "I'm CareerBridge AI! I can help you navigate:\n\n"
                 "• Say **'Practice'** for mock tests.\n"
                 "• Say **'Learning Paths'** for courses.\n"
                 "• Say **'Open [Course Name]'** to view details.\n"
@@ -853,14 +853,14 @@ NAVIGATION ATLAS (ONLY USE THESE INDICES):
                 "• Say **'Profile'** for your resume.";
           } else if (state.userRole == 'recruiter') {
             reply =
-                "I'm ElevateAI! I can help you with:\n\n"
+                "I'm CareerBridge AI! I can help you with:\n\n"
                 "• Say **'Applications'** to track candidates.\n"
                 "• Say **'Learning Content'** to manage library.\n"
                 "• Say **'Open [Student Name]'** to view profiles.\n"
                 "• Say **'Drives'** for placement management.";
           } else {
             reply =
-                "I'm ElevateAI! Say **'Applications'**, **'Drives'**, or **'Learning Content'** and I'll take you there!";
+                "I'm CareerBridge AI! Say **'Applications'**, **'Drives'**, or **'Learning Content'** and I'll take you there!";
           }
         } else {
           // 3. Fallback Entity Search (For direct names like "Poornaprajna" or "John Doe")
@@ -1355,7 +1355,7 @@ class _AIAssistantWidgetState extends ConsumerState<AIAssistantWidget> {
                                   children: [
                                     Flexible(
                                       child: Text(
-                                        'ElevateAI',
+                                        'CareerBridge AI',
                                         style: GoogleFonts.outfit(
                                           color: Colors.white,
                                           fontWeight: FontWeight.bold,

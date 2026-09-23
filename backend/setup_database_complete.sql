@@ -783,5 +783,5 @@ ON CONFLICT (name) DO NOTHING;
 COMMIT;
 
 -- Success message
-SELECT 'ElevateHire database setup completed successfully! 🎉' as status,
+SELECT 'CareerBridge database setup completed successfully! 🎉' as status,
        'All tables, indexes, policies, and initial data have been created.' as message;

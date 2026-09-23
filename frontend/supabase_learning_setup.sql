@@ -1,5 +1,5 @@
 -- ============================================
--- ELEVATEHIRE - LEARNING PATH ENHANCEMENTS
+-- CareerBridge - LEARNING PATH ENHANCEMENTS
 -- Migration: Adds new metadata fields only
 -- ============================================
 

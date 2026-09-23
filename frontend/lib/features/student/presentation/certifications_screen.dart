@@ -625,20 +625,20 @@ class _CertificationsScreenState extends ConsumerState<CertificationsScreen>
         certification['certificate_file_url'] ??
         certification['certificate_url'];
 
-    // ElevateHire-issued course certificates store "EH-XXXXXXXX" in certificate_url
+    // CareerBridge-issued course certificates store "EH-XXXXXXXX" in certificate_url
     // Navigate to the in-app viewer instead of trying to open as a URL
-    final isElevateHireCert =
+    final isCareerBridgeCert =
         certUrl != null &&
         (certUrl as String).startsWith('EH-');
 
-    if (isElevateHireCert) {
+    if (isCareerBridgeCert) {
       if (!mounted) return;
       final user = Supabase.instance.client.auth.currentUser;
       final userName = user?.userMetadata?['full_name'] ?? 'Student';
       final courseName =
           certification['certificate_name'] ??
           certification['issuer_name_snapshot'] ??
-          'ElevateHire Course';
+          'CareerBridge Course';
       final issuedAt =
           certification['issue_date'] != null
               ? DateTime.tryParse(certification['issue_date']) ?? DateTime.now()

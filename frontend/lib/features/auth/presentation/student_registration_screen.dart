@@ -424,7 +424,7 @@ class _StudentRegistrationScreenState
                       ),
                       const SizedBox(height: 32),
                       Text(
-                        'ElevateHire',
+                        'CareerBridge',
                         style: GoogleFonts.outfit(
                           fontSize: 48,
                           fontWeight: FontWeight.bold,

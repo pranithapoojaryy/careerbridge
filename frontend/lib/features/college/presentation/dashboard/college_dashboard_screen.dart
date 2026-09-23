@@ -323,7 +323,7 @@ class _DashboardHomeContentState extends ConsumerState<_DashboardHomeContent> {
                       children: [
                         // 1. Welcome Text Section
                         Text(
-                          'ElevateHire',
+                          'CareerBridge',
                           style: GoogleFonts.outfit(
                             fontSize: 12,
                             color: AppTheme.primaryColor,
@@ -381,7 +381,7 @@ class _DashboardHomeContentState extends ConsumerState<_DashboardHomeContent> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'ElevateHire'.toUpperCase(),
+                                'CareerBridge'.toUpperCase(),
                                 style: GoogleFonts.outfit(
                                   fontSize: 12,
                                   color: AppTheme.primaryColor,

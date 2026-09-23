@@ -1,4 +1,4 @@
-# 🚀 ElevateHire - Simple Setup for Existing Database
+# 🚀 CareerBridge - Simple Setup for Existing Database
 
 ## ✅ One-Step Setup
 

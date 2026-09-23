@@ -1,7 +1,7 @@
-# Test ElevateHire Email System
+# Test CareerBridge Email System
 # This script tests all email functions to ensure they're working correctly
 
-Write-Host "🧪 Testing ElevateHire Email System" -ForegroundColor Cyan
+Write-Host "🧪 Testing CareerBridge Email System" -ForegroundColor Cyan
 Write-Host "===================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -36,8 +36,8 @@ Write-Host "🎓 Test 1: Student Invitation Email..." -ForegroundColor Cyan
 $invitePayload = @{
     emails = @($testEmail)
     collegeName = "Test College"
-    inviteLink = "https://elevatehire.app/invite?code=TEST123"
-    customMessage = "This is a test invitation from the ElevateHire email system!"
+    inviteLink = "https://CareerBridge.app/invite?code=TEST123"
+    customMessage = "This is a test invitation from the CareerBridge email system!"
 } | ConvertTo-Json
 
 try {
@@ -66,9 +66,9 @@ Write-Host "💬 Test 2: Bulk Message Email..." -ForegroundColor Cyan
 
 $bulkPayload = @{
     emails = @($testEmail)
-    subject = "Test Bulk Message from ElevateHire"
+    subject = "Test Bulk Message from CareerBridge"
     message = "This is a test bulk message to verify the email system is working correctly. If you receive this, everything is set up properly!"
-    senderName = "ElevateHire Test System"
+    senderName = "CareerBridge Test System"
 } | ConvertTo-Json
 
 try {
@@ -101,7 +101,7 @@ $assessmentPayload = @{
         full_name = "Test Student"
     })
     assessmentTitle = "Sample Programming Assessment"
-    assessmentLink = "https://elevatehire.app/assessment/test123"
+    assessmentLink = "https://CareerBridge.app/assessment/test123"
     deadline = (Get-Date).AddDays(7).ToString("yyyy-MM-ddTHH:mm:ssZ")
     collegeName = "Test College"
 } | ConvertTo-Json -Depth 3
@@ -137,7 +137,7 @@ $eventPayload = @{
     })
     eventTitle = "Tech Hackathon 2024"
     eventDetails = "Join us for an exciting 48-hour hackathon where you'll build innovative solutions and compete for amazing prizes!"
-    registrationLink = "https://elevatehire.app/events/hackathon2024/register"
+    registrationLink = "https://CareerBridge.app/events/hackathon2024/register"
     eventDate = (Get-Date).AddDays(14).ToString("yyyy-MM-ddTHH:mm:ssZ")
     collegeName = "Test College"
 } | ConvertTo-Json -Depth 3

@@ -759,9 +759,9 @@ class _SocialFeedPanelState extends ConsumerState<SocialFeedPanel> {
                   onTap: () {
                     final content =
                         post['content'] ??
-                        'Check out this post on ElevateHire!';
+                        'Check out this post on CareerBridge!';
                     // Simple share for now
-                    Share.share('$content\n\nSent via ElevateHire');
+                    Share.share('$content\n\nSent via CareerBridge');
                   },
                 ),
               ],

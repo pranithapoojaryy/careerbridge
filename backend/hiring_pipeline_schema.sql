@@ -1,4 +1,4 @@
--- ElevateHire Hiring Pipeline Schema
+-- CareerBridge Hiring Pipeline Schema
 -- This migration enhances the existing jobs/applications system with multi-round interview support
 
 -- ============================================

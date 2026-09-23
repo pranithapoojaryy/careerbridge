@@ -1,5 +1,5 @@
 -- Migration 012: Job System
--- Author: ElevateHire Team
+-- Author: CareerBridge Team
 -- Date: 2026-01-14
 
 -- 1. Create Jobs Table

@@ -1,7 +1,7 @@
 # Chapter 8: Screenshots
 
 ## 8.1 Introduction
-This chapter provides visual evidence of the **ElevateHire** platform in its completed state. The screenshots demonstrate the user interface across different modules, showcasing the responsive design, rich data visualization, and the integration of the AI Assistant.
+This chapter provides visual evidence of the **CareerBridge** platform in its completed state. The screenshots demonstrate the user interface across different modules, showcasing the responsive design, rich data visualization, and the integration of the AI Assistant.
 
 ## 8.2 Authentication & Identity
 The platform features a seamless login and registration flow for Students, Recruiters, and College Admins, ensuring secure access via Supabase Auth.
@@ -42,8 +42,8 @@ Recruiters leverage AI to analyze resumes and manage job applications effectivel
 ## 8.6 Networking & AI Assistant
 The platform includes real-time communication tools and an AI sidekick for navigational assistance.
 
-![ElevateAI Chatbot Interaction](file:///C:/Users/ASUS/.gemini/antigravity/brain/d2f63a14-daa8-46b8-a8b4-106adf25df70/media__1770813798690.png)
-*Figure 8.6: ElevateAI Assistant providing contextual help.*
+![CareerBridge AI Chatbot Interaction](file:///C:/Users/ASUS/.gemini/antigravity/brain/d2f63a14-daa8-46b8-a8b4-106adf25df70/media__1770813798690.png)
+*Figure 8.6: CareerBridge AI Assistant providing contextual help.*
 
 ![Campus Network Feed](file:///C:/Users/ASUS/.gemini/antigravity/brain/d2f63a14-daa8-46b8-a8b4-106adf25df70/media__1770811969470.png)
 *Figure 8.7: Peer Networking and Social Feed.*

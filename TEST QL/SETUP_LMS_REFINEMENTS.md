@@ -35,11 +35,11 @@ flutter pub run build_runner build --delete-conflicting-outputs
 
 **In this order:**
 
-1. **Fix Questions:** [`fix_assessment_questions.sql`](file:///c:/Users/ASUS/Desktop/ElevateHire/fix_assessment_questions.sql)
+1. **Fix Questions:** [`fix_assessment_questions.sql`](file:///c:/Users/ASUS/Desktop/CareerBridge/fix_assessment_questions.sql)
    - Normalizes question JSON structure
    - Adds sample questions to empty assessments
 
-2. **Analytics Functions:** [`analytics_functions.sql`](file:///c:/Users/ASUS/Desktop/ElevateHire/analytics_functions.sql)
+2. **Analytics Functions:** [`analytics_functions.sql`](file:///c:/Users/ASUS/Desktop/CareerBridge/analytics_functions.sql)
    - Creates 7 PostgreSQL functions for analytics
 
 ### Step 3: Test the Fixes
@@ -71,7 +71,7 @@ flutter pub run build_runner build --delete-conflicting-outputs
 3. Added sample questions for empty assessments
 
 **Files Modified:**
-- [`assessment.dart`](file:///c:/Users/ASUS/Desktop/ElevateHire/frontend/lib/features/student/domain/assessment.dart) - fromJson now backwards compatible
+- [`assessment.dart`](file:///c:/Users/ASUS/Desktop/CareerBridge/frontend/lib/features/student/domain/assessment.dart) - fromJson now backwards compatible
 
 ### Analytics Dashboard ✅
 

@@ -118,7 +118,7 @@ class _CollegeSidebarState extends State<CollegeSidebar> {
                   ),
                   // No vertical spacing here
                   Text(
-                    'ElevateHire',
+                    'CareerBridge',
                     style: GoogleFonts.outfit(
                       fontSize: 32,
                       fontWeight: FontWeight.bold,
@@ -203,7 +203,7 @@ class _CollegeSidebarState extends State<CollegeSidebar> {
                 _buildSectionHeader('AI Assistant'),
                 _buildNavItem(
                   99,
-                  'Ask ElevateAI (Beta)',
+                  'Ask CareerBridge AI (Beta)',
                   Icons.auto_awesome_rounded,
                 ),
                 const SizedBox(height: 24),
@@ -350,7 +350,7 @@ class _HoverNavItemState extends State<_HoverNavItem> {
                         size: 24,
                         color: widget.isDestructive
                             ? Colors.red[400]
-                            : (widget.title.contains("ElevateAI")
+                            : (widget.title.contains("CareerBridge AI")
                                   ? AppTheme.primaryColor
                                   : (widget.isSelected
                                         ? AppTheme.primaryColor
@@ -364,7 +364,7 @@ class _HoverNavItemState extends State<_HoverNavItem> {
                           size: 22,
                           color: widget.isDestructive
                               ? Colors.red[400]
-                              : (widget.title.contains("ElevateAI")
+                              : (widget.title.contains("CareerBridge AI")
                                     ? AppTheme.primaryColor
                                     : (widget.isSelected
                                           ? AppTheme.primaryColor
@@ -381,7 +381,7 @@ class _HoverNavItemState extends State<_HoverNavItem> {
                                   : FontWeight.w500,
                               color: widget.isDestructive
                                   ? Colors.red[400]
-                                  : (widget.title.contains("ElevateAI")
+                                  : (widget.title.contains("CareerBridge AI")
                                         ? AppTheme.primaryColor
                                         : (widget.isSelected
                                               ? AppTheme.primaryColor
@@ -390,7 +390,7 @@ class _HoverNavItemState extends State<_HoverNavItem> {
                             overflow: TextOverflow.ellipsis,
                           ),
                         ),
-                        if (widget.title.contains("ElevateAI") &&
+                        if (widget.title.contains("CareerBridge AI") &&
                             !widget.isSelected)
                           Icon(
                                 Icons.bolt_rounded,

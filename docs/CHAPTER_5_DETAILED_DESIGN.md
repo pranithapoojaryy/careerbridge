@@ -1,10 +1,10 @@
 # Chapter 5: Detailed Design
 
 ## 5.1 Introduction
-The Detailed Design phase translates the high-level system architecture into a granular technical blueprint. For **ElevateHire**, this involves defining the internal logic of Flutter components, the state management flow using Riverpod, and the specific interaction patterns between the frontend features and Supabase backend services. This document serves as the primary reference for the implementation of specific functional modules.
+The Detailed Design phase translates the high-level system architecture into a granular technical blueprint. For **CareerBridge**, this involves defining the internal logic of Flutter components, the state management flow using Riverpod, and the specific interaction patterns between the frontend features and Supabase backend services. This document serves as the primary reference for the implementation of specific functional modules.
 
 ## 5.2 System Overview
-ElevateHire is built as a **Feature-First Modular Application**. Instead of a traditional layer-based approach (where all controllers are in one folder and all views in another), the application is split into domain-specific modules (Auth, Student, Recruiter, etc.). Each feature is self-contained, containing its own presentation, domain, and data layers.
+CareerBridge is built as a **Feature-First Modular Application**. Instead of a traditional layer-based approach (where all controllers are in one folder and all views in another), the application is split into domain-specific modules (Auth, Student, Recruiter, etc.). Each feature is self-contained, containing its own presentation, domain, and data layers.
 
 ### Key Technical Pillars:
 - **Presentation Layer**: Built with Material Design 3 and Google Fonts (Outfit). Uses reactive widgets that rebuild only when state changes.
@@ -74,14 +74,14 @@ The application is decomposed into the following core components to ensure maint
 4.  **Local Rule Engine**: Heuristic-based logic for the AI Career Assistant that parses natural language queries into system actions.
 
 ## 5.5 Modular Architecture Principles
-ElevateHire adheres to a feature-driven modular architecture, ensuring that each subsystem is isolated, testable, and maintainable. This approach facilitates horizontal scaling of development teams and simplifies the integration of new career-focused tools.
+CareerBridge adheres to a feature-driven modular architecture, ensuring that each subsystem is isolated, testable, and maintainable. This approach facilitates horizontal scaling of development teams and simplifies the integration of new career-focused tools.
 
 ## 5.6 System Structure Chart
-The following chart illustrates the hierarchical functional modules and their specific sub-functions within the ElevateHire ecosystem, organized by user portals and shared assistance modules.
+The following chart illustrates the hierarchical functional modules and their specific sub-functions within the CareerBridge ecosystem, organized by user portals and shared assistance modules.
 
 ```mermaid
 graph TD
-    EH[ElevateHire]
+    EH[CareerBridge]
     
     %% Main Portals
     EH --- SP[Student Portal]
@@ -112,7 +112,7 @@ graph TD
 ```
 
 ## 5.7 Data Flow Architecture
-The following diagrams illustrate the flow of information through ElevateHire. We use a hierarchical approach, starting with the high-level Context Diagram (Level-0) and then decomposing it into the modular interactions (Level-1).
+The following diagrams illustrate the flow of information through CareerBridge. We use a hierarchical approach, starting with the high-level Context Diagram (Level-0) and then decomposing it into the modular interactions (Level-1).
 
 ### 5.7.1 Level-0 Data Flow Diagram (Context Diagram)
 The Context Diagram defines the system boundary and its interactions with external actors.
@@ -122,7 +122,7 @@ graph LR
     S((Student))
     R((Recruiter))
     C((College))
-    SYS[0 : ElevateHire System]
+    SYS[0 : CareerBridge System]
 
     %% Student Flows
     S -- "Portfolio, Projects & Resume" --> SYS
@@ -151,7 +151,7 @@ flowchart TD
     DB[(PostgreSQL DB)]
     ST[(Supabase Storage)]
 
-    subgraph "ElevateHire System Boundary"
+    subgraph "CareerBridge System Boundary"
         M1[Authentication & Identity]
         M2[Student & Career]
         M3[Recruiter & Job Insights]

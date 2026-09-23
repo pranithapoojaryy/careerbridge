@@ -1,4 +1,4 @@
-# Deploy ElevateHire to Vercel - Quick Guide
+# Deploy CareerBridge to Vercel - Quick Guide
 
 ## ✅ Build Complete!
 Your Flutter web app has been built successfully in `frontend/build/web`
@@ -11,7 +11,7 @@ Your Flutter web app has been built successfully in `frontend/build/web`
 
 2. **Click "Add New Project"** → **Import Git Repository**
 
-3. **Select `ElevateHire`** repository
+3. **Select `CareerBridge`** repository
 
 4. **Configure:**
    - **Root Directory:** `frontend`

@@ -50,16 +50,16 @@ void main() async {
     // Supabase initialization error - app will handle gracefully
   }
 
-  runApp(const ProviderScope(child: ElevateHireApp()));
+  runApp(const ProviderScope(child: CareerBridgeApp()));
 }
 
-class ElevateHireApp extends ConsumerWidget {
-  const ElevateHireApp({super.key});
+class CareerBridgeApp extends ConsumerWidget {
+  const CareerBridgeApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
-      title: 'ElevateHire',
+      title: 'CareerBridge',
       navigatorKey: NavigationService.navigatorKey,
       navigatorObservers: [RouteTrackingObserver.instance],
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),

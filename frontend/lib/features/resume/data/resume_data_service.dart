@@ -141,8 +141,8 @@ $text
         headers: {
           'Authorization': 'Bearer $apiKey',
           'Content-Type': 'application/json',
-          'HTTP-Referer': 'https://elevatehire.app',
-          'X-Title': 'ElevateHire Resume Parser',
+          'HTTP-Referer': 'https://CareerBridge.app',
+          'X-Title': 'CareerBridge Resume Parser',
         },
         body: jsonEncode({
           'model': 'google/gemini-2.0-flash-001',

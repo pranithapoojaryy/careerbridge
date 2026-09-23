@@ -106,8 +106,8 @@ serve(async (req) => {
               <p><strong>Need Help?</strong> Contact your college placement cell or reply to this email for assistance.</p>
             </div>
             <div class="footer">
-              <p>This assessment was assigned by ${collegeName} through ElevateHire</p>
-              <p>© 2024 ElevateHire. All rights reserved.</p>
+              <p>This assessment was assigned by ${collegeName} through CareerBridge</p>
+              <p>© 2024 CareerBridge. All rights reserved.</p>
             </div>
           </div>
         </body>
@@ -121,7 +121,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${collegeName} <assessments@elevatehire.app>`,
+          from: `${collegeName} <assessments@CareerBridge.app>`,
           to: [student.email],
           subject: `📝 New Assessment: ${assessmentTitle} - Due ${deadlineDate.toLocaleDateString()}`,
           html: emailTemplate,

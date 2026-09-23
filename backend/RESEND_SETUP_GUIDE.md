@@ -1,8 +1,8 @@
-# 📧 Resend API Setup Guide for ElevateHire
+# 📧 Resend API Setup Guide for CareerBridge
 
 ## 🎯 Overview
 
-This guide will help you set up the Resend API for sending emails in your ElevateHire application. Your Resend API key has been configured: `re_YOUR_RESEND_API_KEY`
+This guide will help you set up the Resend API for sending emails in your CareerBridge application. Your Resend API key has been configured: `re_YOUR_RESEND_API_KEY`
 
 ## 🔑 API Key Configuration
 
@@ -13,9 +13,9 @@ This guide will help you set up the Resend API for sending emails in your Elevat
 supabase secrets set RESEND_API_KEY=re_YOUR_RESEND_API_KEY
 
 # Set additional email configuration
-supabase secrets set EMAIL_FROM_DOMAIN=elevatehire.app
-supabase secrets set EMAIL_FROM_NAME=ElevateHire
-supabase secrets set APP_URL=https://elevatehire.app
+supabase secrets set EMAIL_FROM_DOMAIN=CareerBridge.app
+supabase secrets set EMAIL_FROM_NAME=CareerBridge
+supabase secrets set APP_URL=https://CareerBridge.app
 
 # Verify secrets
 supabase secrets list
@@ -29,9 +29,9 @@ supabase secrets list
 
 ```
 RESEND_API_KEY=re_YOUR_RESEND_API_KEY
-EMAIL_FROM_DOMAIN=elevatehire.app
-EMAIL_FROM_NAME=ElevateHire
-APP_URL=https://elevatehire.app
+EMAIL_FROM_DOMAIN=CareerBridge.app
+EMAIL_FROM_NAME=CareerBridge
+APP_URL=https://CareerBridge.app
 ```
 
 ### Option 3: Use PowerShell Script (Windows)
@@ -72,7 +72,7 @@ curl -X POST 'https://your-project.supabase.co/functions/v1/send-student-invites
   -d '{
     "emails": ["test@example.com"],
     "collegeName": "Test College",
-    "inviteLink": "https://elevatehire.app/invite?code=TEST123",
+    "inviteLink": "https://CareerBridge.app/invite?code=TEST123",
     "customMessage": "Welcome to our placement program!"
   }'
 ```
@@ -113,7 +113,7 @@ curl -X POST 'https://your-project.supabase.co/functions/v1/send-bulk-message' \
 
 1. In Resend dashboard, go to **Domains**
 2. Click **Add Domain**
-3. Enter `elevatehire.app`
+3. Enter `CareerBridge.app`
 
 ### 2. Add DNS Records
 
@@ -203,7 +203,7 @@ You can modify templates in the Edge Function files:
 
 2. **"Domain not verified"**
    - Complete domain verification in Resend dashboard
-   - Use `noreply@elevatehire.app` as sender
+   - Use `noreply@CareerBridge.app` as sender
 
 3. **"Rate limit exceeded"**
    - Check your Resend usage limits
@@ -228,7 +228,7 @@ curl -X POST 'https://api.resend.com/emails' \
   -H 'Authorization: Bearer re_YOUR_RESEND_API_KEY' \
   -H 'Content-Type: application/json' \
   -d '{
-    "from": "test@elevatehire.app",
+    "from": "test@CareerBridge.app",
     "to": ["test@example.com"],
     "subject": "Test Email",
     "html": "<p>Test message</p>"
@@ -243,7 +243,7 @@ curl -X POST 'https://api.resend.com/emails' \
 - **Support**: [resend.com/support](https://resend.com/support)
 - **Status**: [status.resend.com](https://status.resend.com)
 
-### ElevateHire Email System
+### CareerBridge Email System
 
 - Check the `EMAIL_SYSTEM_SETUP.md` for detailed setup
 - Review Edge Function logs for errors

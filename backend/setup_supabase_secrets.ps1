@@ -9,13 +9,13 @@ supabase secrets set RESEND_API_KEY=re_YOUR_RESEND_API_KEY
 
 # Set email configuration
 Write-Host "⚙️ Setting email configuration..." -ForegroundColor Yellow
-supabase secrets set EMAIL_FROM_DOMAIN=elevatehire.app
-supabase secrets set EMAIL_FROM_NAME=ElevateHire
-supabase secrets set APP_URL=https://elevatehire.app
+supabase secrets set EMAIL_FROM_DOMAIN=CareerBridge.app
+supabase secrets set EMAIL_FROM_NAME=CareerBridge
+supabase secrets set APP_URL=https://CareerBridge.app
 
 # Set additional configuration
 Write-Host "🌐 Setting app configuration..." -ForegroundColor Yellow
-supabase secrets set INVITE_BASE_URL=https://elevatehire.app/invite
+supabase secrets set INVITE_BASE_URL=https://CareerBridge.app/invite
 supabase secrets set APP_ENV=production
 
 Write-Host ""

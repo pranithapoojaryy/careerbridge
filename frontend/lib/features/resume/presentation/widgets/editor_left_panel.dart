@@ -58,7 +58,7 @@ class _StructureTab extends ConsumerWidget {
                 builder: (context) => AlertDialog(
                   title: const Text('Import from Profile?'),
                   content: const Text(
-                    'This will overwrite your current Personal Details, Summary, Skills, and Projects with data from your ElevateHire profile.',
+                    'This will overwrite your current Personal Details, Summary, Skills, and Projects with data from your CareerBridge profile.',
                   ),
                   actions: [
                     TextButton(

@@ -185,7 +185,7 @@ class CertificateService {
                           ),
                         ),
 
-                        // Center: ElevateHire
+                        // Center: CareerBridge
                         pw.Expanded(
                           child: pw.Column(
                             children: [
@@ -201,7 +201,7 @@ class CertificateService {
                               ),
                               pw.SizedBox(height: 8),
                               pw.Text(
-                                'ElevateHire',
+                                'CareerBridge',
                                 style: pw.TextStyle(
                                   font: fontOutfitBold,
                                   fontWeight: pw.FontWeight.bold,
@@ -241,7 +241,7 @@ class CertificateService {
                                 ),
                                 child: pw.BarcodeWidget(
                                   data:
-                                      'https://elevatehire.com/verify/$certificateId',
+                                      'https://CareerBridge.com/verify/$certificateId',
                                   barcode: pw.Barcode.qrCode(),
                                   width: 50,
                                   height: 50,

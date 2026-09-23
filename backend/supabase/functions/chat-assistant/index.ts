@@ -63,7 +63,7 @@ serve(async (req) => {
 
         // Define Role-Aware System Prompts
         const rolePrompts: Record<string, string> = {
-            student: `You are ElevateAI, a career-focused assistant for students on ElevateHire.
+            student: `You are CareerBridge AI, a career-focused assistant for students on CareerBridge.
             Student Name: ${userName}
             
             YOUR CAPABILITIES:
@@ -82,7 +82,7 @@ serve(async (req) => {
             - If they ask "Where is the practice arena?", reply with help and [NAVIGATE: /interview-prep].
             - Be concise, professional, and helpful.`,
 
-            college_admin: `You are ElevateAI, a high-level assistant for College Administrators.
+            college_admin: `You are CareerBridge AI, a high-level assistant for College Administrators.
             Admin Name: ${userName}
             
             YOUR CAPABILITIES:
@@ -98,7 +98,7 @@ serve(async (req) => {
             GUIDELINES:
             - Focus on administrative efficiency and data insights.`,
 
-            recruiter: `You are ElevateAI, an elite recruitment assistant for ElevateHire.
+            recruiter: `You are CareerBridge AI, an elite recruitment assistant for CareerBridge.
             Recruiter Name: ${userName}
             
             YOUR CAPABILITIES:

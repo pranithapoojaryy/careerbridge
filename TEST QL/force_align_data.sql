@@ -5,7 +5,7 @@
 -- 1. Update the known user 'd2cd...' to be the Admin of Organization '6984...'
 UPDATE profiles
 SET 
-  organization_id = '6984606b-f491-40cb-9984-696ee22ef86d', -- The ID from your "ElevateHire" course
+  organization_id = '6984606b-f491-40cb-9984-696ee22ef86d', -- The ID from your "CareerBridge" course
   role = 'college'
 WHERE id = 'd2cd996e-9ead-40d4-8465-13f39e706633'; -- The Student ID from your enrollment table
 

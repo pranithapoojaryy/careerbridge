@@ -83,8 +83,8 @@ RESPONSE FORMAT (STRICT JSON ONLY):
         headers: {
           'Authorization': 'Bearer $apiKey',
           'Content-Type': 'application/json',
-          'HTTP-Referer': 'https://elevatehire.app',
-          'X-Title': 'ElevateHire AI Matcher',
+          'HTTP-Referer': 'https://CareerBridge.app',
+          'X-Title': 'CareerBridge AI Matcher',
         },
         body: jsonEncode({
           'model':

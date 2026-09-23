@@ -143,7 +143,7 @@ class _StudentSidebarState extends ConsumerState<StudentSidebar>
                 _buildSectionHeader('AI Assistant', 12),
                 _buildNavItem(
                   99,
-                  'Ask ElevateAI (Beta)',
+                  'Ask CareerBridge AI (Beta)',
                   Icons.auto_awesome_rounded,
                 ),
               ],
@@ -270,7 +270,7 @@ class _StudentSidebarState extends ConsumerState<StudentSidebar>
                 colors: [AppTheme.primaryColor, AppTheme.primaryColor],
               ).createShader(bounds),
               child: Text(
-                'ElevateHire',
+                'CareerBridge',
                 style: GoogleFonts.outfit(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,

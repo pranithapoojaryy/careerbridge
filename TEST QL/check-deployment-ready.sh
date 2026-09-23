@@ -2,7 +2,7 @@
 
 # Check if everything is ready for Vercel deployment
 
-echo "🔍 ElevateHire Deployment Readiness Check"
+echo "🔍 CareerBridge Deployment Readiness Check"
 echo "========================================"
 
 # Check Flutter installation

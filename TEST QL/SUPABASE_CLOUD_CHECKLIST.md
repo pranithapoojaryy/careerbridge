@@ -1,4 +1,4 @@
-# ✅ Supabase Cloud Setup Checklist - ElevateHire Email System
+# ✅ Supabase Cloud Setup Checklist - CareerBridge Email System
 
 ## 🎯 Quick Setup for Supabase Cloud Users
 
@@ -28,9 +28,9 @@
 2. **Scroll to Environment Variables**
 3. **Add these variables**:
    - `RESEND_API_KEY` = `re_YOUR_RESEND_API_KEY`
-   - `EMAIL_FROM_DOMAIN` = `elevatehire.app`
-   - `EMAIL_FROM_NAME` = `ElevateHire`
-   - `APP_URL` = `https://elevatehire.app`
+   - `EMAIL_FROM_DOMAIN` = `CareerBridge.app`
+   - `EMAIL_FROM_NAME` = `CareerBridge`
+   - `APP_URL` = `https://CareerBridge.app`
 
 ### ☐ **Step 3: Create Edge Functions (10 minutes)**
 
@@ -65,7 +65,7 @@
    {
      "emails": ["your-email@example.com"],
      "collegeName": "Test College",
-     "inviteLink": "https://elevatehire.app/invite?code=TEST123",
+     "inviteLink": "https://CareerBridge.app/invite?code=TEST123",
      "customMessage": "This is a test invitation!"
    }
    ```
@@ -124,7 +124,7 @@ AND table_name IN ('email_logs', 'invite_codes', 'communication_templates');
 {
   "emails": ["test@example.com"],
   "collegeName": "Demo College",
-  "inviteLink": "https://elevatehire.app/invite?code=DEMO123",
+  "inviteLink": "https://CareerBridge.app/invite?code=DEMO123",
   "customMessage": "Welcome to our platform!"
 }
 ```
@@ -177,7 +177,7 @@ You'll know everything is working when:
 
 ## 🎉 You're Done!
 
-Once all checkboxes are complete, your ElevateHire email system is fully functional!
+Once all checkboxes are complete, your CareerBridge email system is fully functional!
 
 **Features Available**:
 - 📧 Student invitation emails

@@ -1,4 +1,4 @@
-# 🚀 ElevateHire Database Setup - Step by Step
+# 🚀 CareerBridge Database Setup - Step by Step
 
 ## ⚠️ IMPORTANT: Run These in Order!
 
@@ -105,4 +105,4 @@ When all 3 steps complete:
 - ✅ RLS enabled on all tables
 - ✅ Flutter app can connect and work with real data
 
-**You're ready to use ElevateHire! 🎉**
+**You're ready to use CareerBridge! 🎉**

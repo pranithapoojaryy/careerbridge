@@ -1,6 +1,6 @@
 # PowerShell Complete deployment script for Vercel
 
-Write-Host "🚀 ElevateHire Flutter Web Deployment to Vercel" -ForegroundColor Green
+Write-Host "🚀 CareerBridge Flutter Web Deployment to Vercel" -ForegroundColor Green
 Write-Host "================================================" -ForegroundColor Green
 
 # Step 1: Build the Flutter app

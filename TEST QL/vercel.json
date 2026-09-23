@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "elevatehire-flutter-app",
+  "name": "CareerBridge-flutter-app",
   "outputDirectory": "frontend/build/web",
   "routes": [
     {

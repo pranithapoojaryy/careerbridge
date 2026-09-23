@@ -65,7 +65,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
                 // Title
                 Text(
-                      'ElevateHire',
+                      'CareerBridge',
                       style: GoogleFonts.outfit(
                         fontSize: 36,
                         fontWeight: FontWeight.bold,
@@ -118,7 +118,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        '© 2024 ElevateHire',
+                        '© 2024 CareerBridge',
                         style: GoogleFonts.outfit(
                           fontSize: 12,
                           color: Colors.grey[400],

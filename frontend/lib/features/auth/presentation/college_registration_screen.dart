@@ -194,7 +194,7 @@ class _CollegeRegistrationScreenState
                       ),
                       const SizedBox(height: 32),
                       Text(
-                        'ElevateHire',
+                        'CareerBridge',
                         style: GoogleFonts.outfit(
                           fontSize: 48,
                           fontWeight: FontWeight.bold,
@@ -242,7 +242,7 @@ class _CollegeRegistrationScreenState
                         if (!isWide) ...[
                           Center(
                             child: Text(
-                              'ElevateHire',
+                              'CareerBridge',
                               style: GoogleFonts.outfit(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
@@ -330,7 +330,7 @@ class _CollegeRegistrationScreenState
                         Padding(
                           padding: const EdgeInsets.only(left: 12, top: 8),
                           child: Text(
-                            'Your space: ${_shortCodeController.text.isEmpty ? '...' : _shortCodeController.text}.elevatehire.in',
+                            'Your space: ${_shortCodeController.text.isEmpty ? '...' : _shortCodeController.text}.CareerBridge.in',
                             style: GoogleFonts.outfit(
                               fontSize: 12,
                               color: Colors.grey,

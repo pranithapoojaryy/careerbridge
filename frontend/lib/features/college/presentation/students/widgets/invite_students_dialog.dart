@@ -449,7 +449,7 @@ class _InviteStudentsDialogState extends ConsumerState<InviteStudentsDialog>
         final emailService = ref.read(emailServiceProvider);
         
         // Generate a simple invite link (you can make this more sophisticated later)
-        const inviteLink = 'https://elevatehire.app/register';
+        const inviteLink = 'https://CareerBridge.app/register';
         
         try {
           // Send invitations using the existing email service

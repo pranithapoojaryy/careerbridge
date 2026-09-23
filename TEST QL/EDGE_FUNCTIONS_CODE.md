@@ -50,7 +50,7 @@ serve(async (req) => {
       <html>
       <head>
         <meta charset="utf-8">
-        <title>Welcome to ElevateHire</title>
+        <title>Welcome to CareerBridge</title>
         <style>
           body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
           .container { max-width: 600px; margin: 0 auto; padding: 20px; }
@@ -63,13 +63,13 @@ serve(async (req) => {
       <body>
         <div class="container">
           <div class="header">
-            <h1>🎓 Welcome to ElevateHire!</h1>
+            <h1>🎓 Welcome to CareerBridge!</h1>
             <p>Your journey to career excellence starts here</p>
           </div>
           <div class="content">
             <h2>You're Invited to Join ${collegeName}</h2>
             <p>Hello!</p>
-            <p>${collegeName} has invited you to join ElevateHire - the comprehensive platform for skill development, assessments, and placement preparation.</p>
+            <p>${collegeName} has invited you to join CareerBridge - the comprehensive platform for skill development, assessments, and placement preparation.</p>
             
             ${customMessage ? `<div style="background: #e3f2fd; padding: 15px; border-radius: 5px; margin: 20px 0;"><strong>Message from ${collegeName}:</strong><br>${customMessage}</div>` : ''}
             
@@ -84,7 +84,7 @@ serve(async (req) => {
             </ul>
             
             <div style="text-align: center;">
-              <a href="${inviteLink}" class="button">🎯 Join ElevateHire Now</a>
+              <a href="${inviteLink}" class="button">🎯 Join CareerBridge Now</a>
             </div>
             
             <p><strong>Next Steps:</strong></p>
@@ -98,8 +98,8 @@ serve(async (req) => {
             <p>Need help? Contact your college placement cell or reply to this email.</p>
           </div>
           <div class="footer">
-            <p>This invitation was sent by ${collegeName} through ElevateHire</p>
-            <p>© 2024 ElevateHire. All rights reserved.</p>
+            <p>This invitation was sent by ${collegeName} through CareerBridge</p>
+            <p>© 2024 CareerBridge. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -120,9 +120,9 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${collegeName} <noreply@elevatehire.app>`,
+          from: `${collegeName} <noreply@CareerBridge.app>`,
           to: [email],
-          subject: `🎓 Welcome to ElevateHire - Invitation from ${collegeName}`,
+          subject: `🎓 Welcome to CareerBridge - Invitation from ${collegeName}`,
           html: emailTemplate,
         }),
       })
@@ -238,8 +238,8 @@ serve(async (req) => {
             </p>
           </div>
           <div class="footer">
-            <p>This message was sent through ElevateHire</p>
-            <p>© 2024 ElevateHire. All rights reserved.</p>
+            <p>This message was sent through CareerBridge</p>
+            <p>© 2024 CareerBridge. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -260,7 +260,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${senderName} <noreply@elevatehire.app>`,
+          from: `${senderName} <noreply@CareerBridge.app>`,
           to: [email],
           subject: subject,
           html: emailTemplate,
@@ -429,8 +429,8 @@ serve(async (req) => {
               <p><strong>Need Help?</strong> Contact your college placement cell or reply to this email for assistance.</p>
             </div>
             <div class="footer">
-              <p>This assessment was assigned by ${collegeName} through ElevateHire</p>
-              <p>© 2024 ElevateHire. All rights reserved.</p>
+              <p>This assessment was assigned by ${collegeName} through CareerBridge</p>
+              <p>© 2024 CareerBridge. All rights reserved.</p>
             </div>
           </div>
         </body>
@@ -444,7 +444,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${collegeName} <assessments@elevatehire.app>`,
+          from: `${collegeName} <assessments@CareerBridge.app>`,
           to: [student.email],
           subject: `📝 New Assessment: ${assessmentTitle} - Due ${deadlineDate.toLocaleDateString()}`,
           html: emailTemplate,
@@ -621,8 +621,8 @@ serve(async (req) => {
               <p><strong>Questions?</strong> Contact the event organizers or reply to this email for more information.</p>
             </div>
             <div class="footer">
-              <p>This invitation was sent by ${collegeName} through ElevateHire</p>
-              <p>© 2024 ElevateHire. All rights reserved.</p>
+              <p>This invitation was sent by ${collegeName} through CareerBridge</p>
+              <p>© 2024 CareerBridge. All rights reserved.</p>
             </div>
           </div>
         </body>
@@ -636,7 +636,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: `${collegeName} Events <events@elevatehire.app>`,
+          from: `${collegeName} Events <events@CareerBridge.app>`,
           to: [student.email],
           subject: `🎉 You're Invited: ${eventTitle} - ${eventDateTime.toLocaleDateString()}`,
           html: emailTemplate,
@@ -696,9 +696,9 @@ serve(async (req) => {
 
 1. **Set Environment Variables** in Settings → Edge Functions:
    - `RESEND_API_KEY` = `re_YOUR_RESEND_API_KEY`
-   - `EMAIL_FROM_DOMAIN` = `elevatehire.app`
-   - `EMAIL_FROM_NAME` = `ElevateHire`
-   - `APP_URL` = `https://elevatehire.app`
+   - `EMAIL_FROM_DOMAIN` = `CareerBridge.app`
+   - `EMAIL_FROM_NAME` = `CareerBridge`
+   - `APP_URL` = `https://CareerBridge.app`
 
 2. **Test Each Function** using the Invoke button with sample data
 

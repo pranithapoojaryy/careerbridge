@@ -164,7 +164,7 @@ BEGIN
     -- Create some Posts
     -- 1. Text Post
     INSERT INTO public.posts (author_id, content, post_type, likes_count, created_at)
-    VALUES (v_user_id, 'Excited to join ElevateHire! looking forward to connecting with recruiters.', 'general', 5, now() - interval '5 days');
+    VALUES (v_user_id, 'Excited to join CareerBridge! looking forward to connecting with recruiters.', 'general', 5, now() - interval '5 days');
 
     -- 2. Certificate Post (Rich Content)
     INSERT INTO public.posts (author_id, content, post_type, reference_type, reference_data, likes_count, created_at)
@@ -183,7 +183,7 @@ BEGIN
     INSERT INTO public.posts (author_id, content, post_type, image_urls, likes_count, created_at)
     VALUES (
         v_user_id,
-        'Just finished building a Flutter E-commerce app! Check out the UI. 📱 #flutter #coding #mobiledev @ElevateHire',
+        'Just finished building a Flutter E-commerce app! Check out the UI. 📱 #flutter #coding #mobiledev @CareerBridge',
         'general',
         '["https://storage.googleapis.com/cms-storage-bucket/0dbfcc7a59cd1cf16282.png"]'::jsonb,
         42,
@@ -390,7 +390,7 @@ BEGIN
     -- Create some Posts
     -- 1. Welcome Post
     INSERT INTO public.posts (author_id, content, post_type, likes_count, created_at)
-    VALUES (v_user_id, 'Excited to join ElevateHire! looking forward to connecting with recruiters.', 'general', 5, now() - interval '5 days');
+    VALUES (v_user_id, 'Excited to join CareerBridge! looking forward to connecting with recruiters.', 'general', 5, now() - interval '5 days');
 
     -- 2. Achievement
     INSERT INTO public.posts (author_id, content, post_type, likes_count, created_at)

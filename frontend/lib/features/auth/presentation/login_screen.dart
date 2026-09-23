@@ -124,7 +124,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
         Column(
           children: [
             Text(
-              'ElevateHire',
+              'CareerBridge',
               style: GoogleFonts.outfit(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,

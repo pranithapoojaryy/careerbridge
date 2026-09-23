@@ -12,20 +12,20 @@ SELECT vault.create_secret(
 -- Set other email-related configuration
 SELECT vault.create_secret(
     'EMAIL_FROM_DOMAIN',
-    'elevatehire.app',
+    'CareerBridge.app',
     'Default domain for sending emails'
 );
 
 SELECT vault.create_secret(
     'EMAIL_FROM_NAME',
-    'ElevateHire',
+    'CareerBridge',
     'Default sender name for emails'
 );
 
 -- Set app configuration
 SELECT vault.create_secret(
     'APP_URL',
-    'https://elevatehire.app',
+    'https://CareerBridge.app',
     'Base URL for the application'
 );
 

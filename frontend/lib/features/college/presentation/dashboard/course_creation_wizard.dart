@@ -137,14 +137,14 @@ class _PathCreationWizardState extends ConsumerState<PathCreationWizard> {
 
         setState(() {
           // Use full_name as the primary provider name
-          _providerName = profile['full_name'] ?? 'ElevateHire';
+          _providerName = profile['full_name'] ?? 'CareerBridge';
 
           // If we wanted to be more specific, we could fetch organization name using organization_id
           // but for now, full_name is a safe and existing field.
         });
       }
     } catch (e) {
-      setState(() => _providerName = 'ElevateHire');
+      setState(() => _providerName = 'CareerBridge');
     }
   }
 

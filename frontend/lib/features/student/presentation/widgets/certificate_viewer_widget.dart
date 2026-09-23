@@ -177,7 +177,7 @@ class CertificateViewerWidget extends StatelessWidget {
                           ),
                         ),
 
-                        // Center: ElevateHire
+                        // Center: CareerBridge
                         Expanded(
                           child: Column(
                             children: [
@@ -188,7 +188,7 @@ class CertificateViewerWidget extends StatelessWidget {
                               ),
                               const SizedBox(height: 8),
                               Text(
-                                'ElevateHire',
+                                'CareerBridge',
                                 style: GoogleFonts.outfit(
                                   fontWeight: FontWeight.bold,
                                   color: Color(0xFF1E3A8A),

@@ -18,19 +18,19 @@ class CertificationRepository {
           .eq('is_active', true)
           .order('trust_score', ascending: false);
 
-      // Lazy Seeding: Check if ElevateHire exists
-      bool hasElevateHire = response.any(
-        (p) => p['short_code'] == 'ELEVATEHIRE',
+      // Lazy Seeding: Check if CareerBridge exists
+      bool hasCareerBridge = response.any(
+        (p) => p['short_code'] == 'CareerBridge',
       );
       bool hasOther = response.any((p) => p['short_code'] == 'OTHER');
 
-      if (!hasElevateHire || !hasOther) {
+      if (!hasCareerBridge || !hasOther) {
         try {
-          if (!hasElevateHire) {
+          if (!hasCareerBridge) {
             await _supabase.from('certification_providers').insert({
-              'name': 'ElevateHire',
-              'short_code': 'ELEVATEHIRE',
-              'website_url': 'https://elevatehire.com',
+              'name': 'CareerBridge',
+              'short_code': 'CareerBridge',
+              'website_url': 'https://CareerBridge.com',
               'validation_method': 'api',
               'trust_score': 100,
               'provider_category': 'A',
@@ -59,11 +59,11 @@ class CertificationRepository {
           // Start with mocked result if seed fails
           return [
             ...response,
-            if (!hasElevateHire)
+            if (!hasCareerBridge)
               {
-                'id': 'temp-elevatehire',
-                'name': 'ElevateHire',
-                'short_code': 'ELEVATEHIRE',
+                'id': 'temp-CareerBridge',
+                'name': 'CareerBridge',
+                'short_code': 'CareerBridge',
                 'trust_score': 100,
                 'validation_method': 'api',
               },
@@ -156,9 +156,9 @@ class CertificationRepository {
 
     // Resolve temporary provider IDs to real UUIDs
     String? resolvedProviderId = providerId;
-    if (providerId == 'temp-elevatehire' || providerId == 'temp-other') {
-      final shortCode = providerId == 'temp-elevatehire'
-          ? 'ELEVATEHIRE'
+    if (providerId == 'temp-CareerBridge' || providerId == 'temp-other') {
+      final shortCode = providerId == 'temp-CareerBridge'
+          ? 'CareerBridge'
           : 'OTHER';
       try {
         final provider = await _supabase

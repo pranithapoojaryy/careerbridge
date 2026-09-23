@@ -1,11 +1,11 @@
 {
-    "name": "ElevateHire | AI-Powered Placement & Career Management",
-    "short_name": "ElevateHire",
+    "name": "CareerBridge | AI-Powered Placement & Career Management",
+    "short_name": "CareerBridge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#6EC9F5",
     "theme_color": "#6EC9F5",
-    "description": "ElevateHire: AI-powered placement platform bridging the gap between academia and industry.",
+    "description": "CareerBridge: AI-powered placement platform bridging the gap between academia and industry.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

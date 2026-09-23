@@ -1,4 +1,4 @@
-# 🚀 Deploy ElevateHire Flutter App to Vercel - SIMPLIFIED
+# 🚀 Deploy CareerBridge Flutter App to Vercel - SIMPLIFIED
 
 ## 🎯 Quick Deploy (One Command)
 
@@ -218,7 +218,7 @@ If deployment fails:
 
 ## 🎉 Success!
 
-Your ElevateHire Flutter app should now be live on Vercel! 
+Your CareerBridge Flutter app should now be live on Vercel! 
 
 **Next Steps:**
 1. Share your Vercel URL

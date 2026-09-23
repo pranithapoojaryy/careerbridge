@@ -1,4 +1,4 @@
-# ElevateHire - Vercel Deployment Guide
+# CareerBridge - Vercel Deployment Guide
 
 ## Quick Deploy (Recommended)
 
@@ -9,7 +9,7 @@
 2. **Click "Add New Project"**
 
 3. **Import your GitHub repository:**
-   - Select `ElevateHire` repository
+   - Select `CareerBridge` repository
    - Click "Import"
 
 4. **Configure Project:**

@@ -2,7 +2,7 @@
 
 # Complete deployment script for Vercel
 
-echo "🚀 ElevateHire Flutter Web Deployment to Vercel"
+echo "🚀 CareerBridge Flutter Web Deployment to Vercel"
 echo "================================================"
 
 # Step 1: Build the Flutter app

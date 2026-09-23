@@ -1,4 +1,4 @@
-# 🧪 Test Your ElevateHire Email System
+# 🧪 Test Your CareerBridge Email System
 
 ## ✅ **What You've Done So Far:**
 
@@ -35,7 +35,7 @@ Add this:
 {
   "emails": ["your-email@example.com"],
   "collegeName": "Test College",
-  "inviteLink": "https://elevatehire.app/invite?code=TEST123",
+  "inviteLink": "https://CareerBridge.app/invite?code=TEST123",
   "customMessage": "This is a test invitation!"
 }
 ```
@@ -67,7 +67,7 @@ flutter run
 
 ## 🎉 **Once Complete:**
 
-Your ElevateHire email system will be fully functional with:
+Your CareerBridge email system will be fully functional with:
 - ✅ Beautiful student invitation emails
 - ✅ Professional HTML templates
 - ✅ Email tracking in database

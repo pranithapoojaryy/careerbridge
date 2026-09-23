@@ -1,4 +1,4 @@
-# ElevateHire Database Setup Guide
+# CareerBridge Database Setup Guide
 
 ## 🚀 Quick Setup (Recommended)
 
@@ -233,4 +233,4 @@ If you encounter issues:
 - No foreign key constraint errors
 - Flutter app connects without errors
 
-**You're now ready to use the full ElevateHire platform! 🚀**
+**You're now ready to use the full CareerBridge platform! 🚀**

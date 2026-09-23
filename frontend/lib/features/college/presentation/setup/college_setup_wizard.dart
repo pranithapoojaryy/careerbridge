@@ -112,7 +112,7 @@ class _CollegeSetupWizardState extends ConsumerState<CollegeSetupWizard> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'ElevateHire',
+                  'CareerBridge',
                   style: GoogleFonts.outfit(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -587,7 +587,7 @@ class _CollegeSetupWizardState extends ConsumerState<CollegeSetupWizard> {
           ),
           const SizedBox(height: 16),
           Text(
-            'Your college profile has been updated. Welcome to ElevateHire.',
+            'Your college profile has been updated. Welcome to CareerBridge.',
             style: GoogleFonts.outfit(fontSize: 20, color: Colors.grey[600]),
           ),
           const SizedBox(height: 48),

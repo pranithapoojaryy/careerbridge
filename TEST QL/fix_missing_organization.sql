@@ -6,7 +6,7 @@
 INSERT INTO public.organizations (id, name, type, description)
 VALUES (
   '6984606b-f491-40cb-9984-696ee22ef86d', -- The ID from your course data
-  'ElevateHire Academy',
+  'CareerBridge Academy',
   'college',
   'Default organization for imported courses'
 )

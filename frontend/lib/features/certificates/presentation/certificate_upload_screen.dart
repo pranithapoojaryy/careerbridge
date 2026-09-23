@@ -216,7 +216,7 @@ class _CertificateUploadScreenState extends State<CertificateUploadScreen> {
                 },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 16),
-                  backgroundColor: Colors.black, // ElevateHire branding
+                  backgroundColor: Colors.black, // CareerBridge branding
                   foregroundColor: Colors.white,
                 ),
                 child: const Text('Add to Profile'),

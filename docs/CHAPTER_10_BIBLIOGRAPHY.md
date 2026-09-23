@@ -1,7 +1,7 @@
 # Chapter 10: Bibliography
 
 ## 10.1 Technical Documentation and Frameworks
-The development of **ElevateHire** relied on several industry-standard technical resources and official documentation libraries.
+The development of **CareerBridge** relied on several industry-standard technical resources and official documentation libraries.
 
 - **Flutter Documentation**: Official guide for building cross-platform applications using the Flutter framework.
   - URL: [https://docs.flutter.dev/](https://docs.flutter.dev/)

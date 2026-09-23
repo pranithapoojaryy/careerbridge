@@ -1,7 +1,7 @@
-# Quick Setup Script for ElevateHire Email System
+# Quick Setup Script for CareerBridge Email System
 # This script handles the most common setup issues
 
-Write-Host "🚀 ElevateHire Email System Quick Setup" -ForegroundColor Cyan
+Write-Host "🚀 CareerBridge Email System Quick Setup" -ForegroundColor Cyan
 Write-Host "=====================================" -ForegroundColor Cyan
 
 # Check prerequisites
@@ -56,9 +56,9 @@ Write-Host "🔐 Setting up secrets..." -ForegroundColor Yellow
 # Set up Supabase secrets
 $secrets = @{
     "RESEND_API_KEY" = "re_YOUR_RESEND_API_KEY"
-    "EMAIL_FROM_DOMAIN" = "elevatehire.app"
-    "EMAIL_FROM_NAME" = "ElevateHire"
-    "APP_URL" = "https://elevatehire.app"
+    "EMAIL_FROM_DOMAIN" = "CareerBridge.app"
+    "EMAIL_FROM_NAME" = "CareerBridge"
+    "APP_URL" = "https://CareerBridge.app"
 }
 
 foreach ($secret in $secrets.GetEnumerator()) {

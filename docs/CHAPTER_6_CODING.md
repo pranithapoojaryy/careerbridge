@@ -1,7 +1,7 @@
 # Chapter 6: Coding
 
 ## 6.1 Introduction
-The coding phase of **ElevateHire** focuses on transforming design specifications into high-quality, executable software components. This chapter details the programming paradigms, practices, and methodologies employed during development to ensure the platform is scalable, maintainable, and efficient.
+The coding phase of **CareerBridge** focuses on transforming design specifications into high-quality, executable software components. This chapter details the programming paradigms, practices, and methodologies employed during development to ensure the platform is scalable, maintainable, and efficient.
 
 ## 6.2 Programming Practices
 To manage the complexity of a multi-portal platform, the development team adopted industry-standard software engineering practices.
@@ -11,7 +11,7 @@ To manage the complexity of a multi-portal platform, the development team adopte
 - **Top-down Approach**: Used for feature implementation. High-level user requirements were broken down into functional modules (e.g., "Student Resume Builder"). This allowed for rapid prototyping of user interfaces before finalizing complex backend integrations.
 
 ### 6.2.2 Structured Programming
-ElevateHire adheres to **Structured Programming** principles to maximize code readability and minimize logical errors:
+CareerBridge adheres to **Structured Programming** principles to maximize code readability and minimize logical errors:
 - **Modularity**: Code is organized into independent, feature-based modules.
 - **Single Responsibility Principle (SRP)**: Each class or function has a single, well-defined purpose (e.g., `ResumeMatchingService` only handles matching logic).
 - **Control Structures**: Consistent use of standardized control flows (if/else, switch, try/catch) for predictable execution.
@@ -107,10 +107,10 @@ void main() async {
     url: 'https://your-project.supabase.co',
     anonKey: 'your-anon-key',
   );
-  runApp(const ProviderScope(child: ElevateHireApp()));
+  runApp(const ProviderScope(child: CareerBridgeApp()));
 }
 
-class ElevateHireApp extends ConsumerWidget {
+class CareerBridgeApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
@@ -128,8 +128,8 @@ class ElevateHireApp extends ConsumerWidget {
 }
 ```
 
-### 6.3.5 AI Chatbot Heuristic Engine (ElevateAI)
-This snippet highlights the local heuristic parsing used by ElevateAI to navigate the app and fetch data without external LLM latency.
+### 6.3.5 AI Chatbot Heuristic Engine (CareerBridge AI)
+This snippet highlights the local heuristic parsing used by CareerBridge AI to navigate the app and fetch data without external LLM latency.
 
 ```dart
 class AIAssistantNotifier extends Notifier<AIAssistantState> {

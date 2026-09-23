@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  🚀 ElevateHire -AI Powered Placement and Netwroking system.
+  🚀 CareerBridge -AI Powered Placement and Netwroking system.
   <br>
 </h1>
 
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <b>ElevateHire</b> bridges the gap between academia and industry — a unified AI-enhanced ecosystem where students build career identities, colleges manage placements, and recruiters discover verified talent.
+  <b>CareerBridge</b> bridges the gap between academia and industry — a unified AI-enhanced ecosystem where students build career identities, colleges manage placements, and recruiters discover verified talent.
 </p>
 
 ---
@@ -37,7 +37,7 @@
 
 ## 🌟 About the Project
 
-ElevateHire is a **full-stack EdTech / HRTech web application** that replaces fragmented, manual placement processes with a streamlined, data-driven platform. It serves three distinct user types from a single unified interface:
+CareerBridge is a **full-stack EdTech / HRTech web application** that replaces fragmented, manual placement processes with a streamlined, data-driven platform. It serves three distinct user types from a single unified interface:
 
 | Role | What They Can Do |
 |---|---|
@@ -56,7 +56,7 @@ ElevateHire is a **full-stack EdTech / HRTech web application** that replaces fr
 - Weighted algorithmic scoring prioritising recruiter requirements, with a job-description fallback.
 - On-screen **Match Chip** and **Skills Breakdown dialog** (Matched vs. Missing keywords).
 
-### 🧠 ElevateAI Career Assistant
+### 🧠 CareerBridge AI Career Assistant
 - Conversational chatbot for platform navigation and real-time data retrieval.
 - Powered by **OpenRouter LLM** integration with a local heuristic fallback layer.
 - Role-aware responses for Students, Admins, and Recruiters.
@@ -109,7 +109,7 @@ ElevateHire is a **full-stack EdTech / HRTech web application** that replaces fr
 
 ## 🏗️ Architecture
 
-ElevateHire follows a modern **3-tier, Modular Feature-Based Architecture**:
+CareerBridge follows a modern **3-tier, Modular Feature-Based Architecture**:
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -148,7 +148,7 @@ ElevateHire follows a modern **3-tier, Modular Feature-Based Architecture**:
 | **Recruiter & Job Insights** | Talent acquisition and AI screening | Job Management, AI Resume Insights |
 | **College & Placement** | Institutional oversight and drive management | Placement Tracker, Certificate Verification |
 | **Skill & Certification** | Validation and trust scoring | Trust Score Calculator, Dept. Validation |
-| **AI Career Assistant** | Natural language help and navigation | ElevateAI (OpenRouter + Local Heuristics) |
+| **AI Career Assistant** | Natural language help and navigation | CareerBridge AI (OpenRouter + Local Heuristics) |
 | **Networking & Communication** | Professional community and messaging | Connections, Realtime Feed & Chat |
 
 ---
@@ -167,8 +167,8 @@ ElevateHire follows a modern **3-tier, Modular Feature-Based Architecture**:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/ElevateHire.git
-cd ElevateHire
+git clone https://github.com/your-username/CareerBridge.git
+cd CareerBridge
 
 # 2. Navigate to the frontend
 cd frontend
@@ -192,7 +192,7 @@ Create `frontend/lib/core/config/supabase_config.dart` (or use your preferred en
 ```dart
 const String supabaseUrl    = 'YOUR_SUPABASE_URL';
 const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
-const String openRouterApiKey = 'YOUR_OPENROUTER_KEY'; // for ElevateAI
+const String openRouterApiKey = 'YOUR_OPENROUTER_KEY'; // for CareerBridge AI
 ```
 
 ### Backend (Supabase Edge Functions)
@@ -210,7 +210,7 @@ supabase functions deploy
 ## 📁 Project Structure
 
 ```
-ElevateHire/
+CareerBridge/
 ├── frontend/                  # Flutter application
 │   ├── lib/
 │   │   ├── core/              # App-wide config, theme, routing
@@ -222,7 +222,7 @@ ElevateHire/
 │   │   │   ├── resume/        # Resume builder
 │   │   │   ├── aptitude/      # Assessment center
 │   │   │   ├── certifications/# Certification engine
-│   │   │   └── ai_assistant/  # ElevateAI chatbot
+│   │   │   └── ai_assistant/  # CareerBridge AI chatbot
 │   │   └── main.dart
 │   └── test/
 ├── backend/                   # Supabase Edge Functions (TypeScript)
@@ -294,6 +294,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 ---
 
 <p align="center">
-  Made with ❤️ by the ElevateHire Team &nbsp;·&nbsp;
+  Made with ❤️ by the CareerBridge Team &nbsp;·&nbsp;
   <a href="./docs/INDEX.md">📖 Full Docs</a>
 </p>

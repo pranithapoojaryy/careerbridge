@@ -35,7 +35,7 @@ class CollegeInterviewDashboard extends ConsumerWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       material.Text(
-                        "ElevateHire",
+                        "CareerBridge",
                         style: GoogleFonts.outfit(
                           fontSize: 14,
                           fontWeight: FontWeight.w600,

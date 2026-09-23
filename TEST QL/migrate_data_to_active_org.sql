@@ -1,5 +1,5 @@
 -- FORCE MIGRATE DATA SCRIPT
--- This script moves the "ElevateHire" course to your Active Organization (eb30...)
+-- This script moves the "CareerBridge" course to your Active Organization (eb30...)
 -- It uses specific IDs to avoid "null" errors in the SQL Editor.
 
 CREATE OR REPLACE FUNCTION force_migrate_data()
@@ -31,7 +31,7 @@ BEGIN
     UPDATE learning_courses
     SET provider_id = active_org_id
     WHERE provider_id = old_org_id
-       OR title = 'ElevateHire';
+       OR title = 'CareerBridge';
 
     -- 3. Ensure your User Profile is linked to this Active Org
     UPDATE profiles

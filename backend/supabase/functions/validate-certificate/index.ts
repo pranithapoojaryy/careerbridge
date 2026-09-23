@@ -131,8 +131,8 @@ async function validateViaAPI(supabase: any, provider: any, certificateId: strin
         return await validateAWS(certificateId, certificateUrl)
       case 'AZURE':
         return await validateAzure(certificateId, certificateUrl)
-      case 'ELEVATEHIRE':
-        return await validateElevateHire(supabase, certificateId, certificateUrl)
+      case 'CareerBridge':
+        return await validateCareerBridge(supabase, certificateId, certificateUrl)
       default:
         return await validateGenericAPI(provider, certificateId, certificateUrl)
     }
@@ -515,12 +515,12 @@ function determineFinalStatus(validationResult: ValidationResult, provider: any)
   }
 }
 
-async function validateElevateHire(supabase: any, certificateId: string, certificateUrl?: string): Promise<ValidationResult> {
+async function validateCareerBridge(supabase: any, certificateId: string, certificateUrl?: string): Promise<ValidationResult> {
   if (!certificateId) {
     return {
       isValid: false,
       confidence: 0,
-      method: 'elevatehire_api',
+      method: 'CareerBridge_api',
       extractedSkills: {},
       validationDetails: { error: 'Missing certificate ID' }
     }
@@ -529,7 +529,7 @@ async function validateElevateHire(supabase: any, certificateId: string, certifi
   // Determine if it represents the expected URL format
   if (certificateUrl && !certificateUrl.includes('elevate-hire-app.vercel.app/verify/')) {
     // Only warn if they provided a URL that points elsewhere
-    console.warn('ElevateHire URL is unusual:', certificateUrl);
+    console.warn('CareerBridge URL is unusual:', certificateUrl);
   }
 
   try {
@@ -543,7 +543,7 @@ async function validateElevateHire(supabase: any, certificateId: string, certifi
       return {
         isValid: false,
         confidence: 0,
-        method: 'elevatehire_api',
+        method: 'CareerBridge_api',
         extractedSkills: {},
         validationDetails: { error: 'Certificate ID not found in database', db_error: error?.message }
       }
@@ -554,7 +554,7 @@ async function validateElevateHire(supabase: any, certificateId: string, certifi
       return {
         isValid: false,
         confidence: 30, // Found but not verified internally
-        method: 'elevatehire_api',
+        method: 'CareerBridge_api',
         extractedSkills: {},
         validationDetails: { error: 'Certificate exists but is not completely internally verified' }
       }
@@ -563,7 +563,7 @@ async function validateElevateHire(supabase: any, certificateId: string, certifi
     return {
       isValid: true,
       confidence: 100, // We have 100% confidence in our own certificates
-      method: 'elevatehire_api',
+      method: 'CareerBridge_api',
       extractedSkills: {},
       validationDetails: {
         message: 'Successfully verified against internal database',
@@ -572,11 +572,11 @@ async function validateElevateHire(supabase: any, certificateId: string, certifi
       }
     }
   } catch (error: any) {
-    console.error('ElevateHire validation failed:', error);
+    console.error('CareerBridge validation failed:', error);
     return {
       isValid: false,
       confidence: 0,
-      method: 'elevatehire_api',
+      method: 'CareerBridge_api',
       extractedSkills: {},
       validationDetails: { error: error.message }
     }
