@@ -174,7 +174,7 @@ class _HeaderForm extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              child: ElevatedButton.icon(
+              child: CAREERBRIDGEdButton.icon(
                 onPressed: () async {
                   final ImagePicker picker = ImagePicker();
                   final XFile? image = await picker.pickImage(
@@ -244,7 +244,7 @@ class _SummaryForm extends StatelessWidget {
           },
         ),
         const SizedBox(height: 8),
-        ElevatedButton.icon(
+        CAREERBRIDGEdButton.icon(
           onPressed: () async {
             // Mock AI call
           },
@@ -372,7 +372,7 @@ class _ExperienceForm extends StatelessWidget {
             ),
           );
         }),
-        ElevatedButton(
+        CAREERBRIDGEdButton(
           onPressed: () {
             final newSection = section.copy() as ExperienceSection;
             newSection.items.add(ExperienceItem.create());
@@ -491,7 +491,7 @@ class _EducationForm extends StatelessWidget {
             ),
           );
         }),
-        ElevatedButton(
+        CAREERBRIDGEdButton(
           onPressed: () {
             final newSection = section.copy() as EducationSection;
             newSection.items.add(EducationItem.create());
@@ -579,7 +579,7 @@ class _ProjectForm extends StatelessWidget {
             ),
           );
         }),
-        ElevatedButton(
+        CAREERBRIDGEdButton(
           onPressed: () {
             final newSection = section.copy() as ProjectSection;
             newSection.items.add(ProjectItem.create());
@@ -657,7 +657,7 @@ class _CertificateForm extends StatelessWidget {
             ),
           );
         }),
-        ElevatedButton(
+        CAREERBRIDGEdButton(
           onPressed: () {
             final newSection = section.copy() as CertificateSection;
             newSection.items.add(CertificateItem.create());
@@ -726,7 +726,7 @@ class _LanguageForm extends StatelessWidget {
             ),
           );
         }),
-        ElevatedButton(
+        CAREERBRIDGEdButton(
           onPressed: () {
             final newSection = section.copy() as LanguagesSection;
             newSection.items.add(LanguageItem.create());
@@ -815,7 +815,7 @@ class _VolunteeringForm extends StatelessWidget {
             ),
           );
         }),
-        ElevatedButton(
+        CAREERBRIDGEdButton(
           onPressed: () {
             final newSection = section.copy() as VolunteeringSection;
             newSection.items.add(ExperienceItem.create());

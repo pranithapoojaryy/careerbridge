@@ -449,9 +449,9 @@ class _CollegeSetupWizardState extends ConsumerState<CollegeSetupWizard> {
                   style: GoogleFonts.outfit(color: Colors.grey),
                 ),
                 const SizedBox(height: 12),
-                ElevatedButton(
+                CAREERBRIDGEdButton(
                   onPressed: () {},
-                  style: ElevatedButton.styleFrom(
+                  style: CAREERBRIDGEdButton.styleFrom(
                     backgroundColor: _selectedColor,
                     foregroundColor: Colors.white,
                     padding: const EdgeInsets.symmetric(

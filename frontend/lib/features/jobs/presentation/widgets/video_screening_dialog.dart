@@ -399,21 +399,21 @@ class _VideoScreeningDialogState extends State<VideoScreeningDialog> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               if (!_isRecording && !_isUploading)
-                                ElevatedButton.icon(
+                                CAREERBRIDGEdButton.icon(
                                   onPressed: _startRecording,
                                   icon: const Icon(Icons.videocam),
                                   label: Text(_videoUrls[_currentStep] == null ? 'Record Response' : 'Re-record'),
-                                  style: ElevatedButton.styleFrom(
+                                  style: CAREERBRIDGEdButton.styleFrom(
                                     backgroundColor: Colors.red,
                                     foregroundColor: Colors.white,
                                   ),
                                 )
                               else if (_isRecording)
-                                ElevatedButton.icon(
+                                CAREERBRIDGEdButton.icon(
                                   onPressed: _stopRecording,
                                   icon: const Icon(Icons.stop),
                                   label: Text('Stop ($_recordDuration s)'),
-                                  style: ElevatedButton.styleFrom(
+                                  style: CAREERBRIDGEdButton.styleFrom(
                                     backgroundColor: Colors.white,
                                     foregroundColor: Colors.red,
                                   ),
@@ -449,9 +449,9 @@ class _VideoScreeningDialogState extends State<VideoScreeningDialog> {
                       ),
                     ),
                   const Spacer(),
-                  ElevatedButton(
+                  CAREERBRIDGEdButton(
                     onPressed: _submit,
-                    style: ElevatedButton.styleFrom(
+                    style: CAREERBRIDGEdButton.styleFrom(
                       backgroundColor: AppTheme.primaryColor,
                       foregroundColor: Colors.white,
                       padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),

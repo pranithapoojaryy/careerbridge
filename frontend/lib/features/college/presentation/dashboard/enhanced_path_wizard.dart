@@ -369,11 +369,11 @@ class _EnhancedPathWizardState extends ConsumerState<EnhancedPathWizard> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      ElevatedButton.icon(
+                      CAREERBRIDGEdButton.icon(
                         onPressed: _addSection,
                         icon: const Icon(Icons.add),
                         label: const Text('Add First Week'),
-                        style: ElevatedButton.styleFrom(
+                        style: CAREERBRIDGEdButton.styleFrom(
                           backgroundColor: AppTheme.primaryColor,
                           foregroundColor: Colors.white,
                           padding: const EdgeInsets.symmetric(
@@ -854,9 +854,9 @@ class _EnhancedPathWizardState extends ConsumerState<EnhancedPathWizard> {
             ),
           if (_currentStep > 0) const SizedBox(width: 16),
           Expanded(
-            child: ElevatedButton(
+            child: CAREERBRIDGEdButton(
               onPressed: _isLoading ? null : _handleNext,
-              style: ElevatedButton.styleFrom(
+              style: CAREERBRIDGEdButton.styleFrom(
                 backgroundColor: AppTheme.primaryColor,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 shape: RoundedRectangleBorder(

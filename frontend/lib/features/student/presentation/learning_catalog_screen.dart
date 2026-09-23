@@ -1142,7 +1142,7 @@ class _LearningCatalogScreenState extends ConsumerState<LearningCatalogScreen> {
                       completedLectures >= totalLectures && totalLectures > 0)
                     SizedBox(
                       height: 32,
-                      child: ElevatedButton.icon(
+                      child: CAREERBRIDGEdButton.icon(
                         onPressed: () async {
                           // Generate/Check Certificate (returns stable cert ID)
                           final certId = await ref
@@ -1167,7 +1167,7 @@ class _LearningCatalogScreenState extends ConsumerState<LearningCatalogScreen> {
                             );
                           }
                         },
-                        style: ElevatedButton.styleFrom(
+                        style: CAREERBRIDGEdButton.styleFrom(
                           backgroundColor: Colors.green,
                           padding: const EdgeInsets.symmetric(horizontal: 12),
                           shape: RoundedRectangleBorder(
@@ -1192,7 +1192,7 @@ class _LearningCatalogScreenState extends ConsumerState<LearningCatalogScreen> {
                   else
                     SizedBox(
                       height: 32,
-                      child: ElevatedButton(
+                      child: CAREERBRIDGEdButton(
                         onPressed: () {
                           if (course.sections.isNotEmpty) {
                             Navigator.push(
@@ -1213,7 +1213,7 @@ class _LearningCatalogScreenState extends ConsumerState<LearningCatalogScreen> {
                             );
                           }
                         },
-                        style: ElevatedButton.styleFrom(
+                        style: CAREERBRIDGEdButton.styleFrom(
                           backgroundColor: AppTheme.primaryColor,
                           padding: const EdgeInsets.symmetric(horizontal: 16),
                           shape: RoundedRectangleBorder(

@@ -178,9 +178,9 @@ class _AddQuestionSheetState extends State<AddQuestionSheet> {
                     ),
                     const SizedBox(height: 32),
 
-                    ElevatedButton(
+                    CAREERBRIDGEdButton(
                       onPressed: _isLoading ? null : _submit,
-                      style: ElevatedButton.styleFrom(
+                      style: CAREERBRIDGEdButton.styleFrom(
                         backgroundColor: const Color(0xFF1A1F36),
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(vertical: 18),

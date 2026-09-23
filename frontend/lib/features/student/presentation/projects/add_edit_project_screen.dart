@@ -661,11 +661,11 @@ class _AddEditProjectScreenState extends State<AddEditProjectScreen> {
                       Row(
                         children: [
                           Expanded(
-                            child: ElevatedButton(
+                            child: CAREERBRIDGEdButton(
                               onPressed: _isSaving
                                   ? null
                                   : () => _saveProject(),
-                              style: ElevatedButton.styleFrom(
+                              style: CAREERBRIDGEdButton.styleFrom(
                                 backgroundColor: Colors.white,
                                 foregroundColor: AppTheme.primaryColor,
                                 padding: const EdgeInsets.symmetric(
@@ -697,11 +697,11 @@ class _AddEditProjectScreenState extends State<AddEditProjectScreen> {
                           ),
                           const SizedBox(width: 16),
                           Expanded(
-                            child: ElevatedButton(
+                            child: CAREERBRIDGEdButton(
                               onPressed: _isSaving
                                   ? null
                                   : () => _saveProject(postToFeed: true),
-                              style: ElevatedButton.styleFrom(
+                              style: CAREERBRIDGEdButton.styleFrom(
                                 backgroundColor: AppTheme.primaryColor,
                                 foregroundColor: Colors.white,
                                 padding: const EdgeInsets.symmetric(

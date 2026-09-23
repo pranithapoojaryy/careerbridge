@@ -336,7 +336,7 @@ class AptitudeHomeScreen extends ConsumerWidget {
                 ),
               ),
               child: Text(
-                'ELEVATE YOUR SKILLS',
+                'CAREERBRIDGE YOUR SKILLS',
                 style: GoogleFonts.outfit(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,

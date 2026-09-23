@@ -200,7 +200,7 @@ class _CertificateUploadScreenState extends State<CertificateUploadScreen> {
               ),
 
               const SizedBox(height: 32),
-              ElevatedButton(
+              CAREERBRIDGEdButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     ScaffoldMessenger.of(context).showSnackBar(
@@ -214,7 +214,7 @@ class _CertificateUploadScreenState extends State<CertificateUploadScreen> {
                     // Add submission logic here
                   }
                 },
-                style: ElevatedButton.styleFrom(
+                style: CAREERBRIDGEdButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 16),
                   backgroundColor: Colors.black, // CareerBridge branding
                   foregroundColor: Colors.white,

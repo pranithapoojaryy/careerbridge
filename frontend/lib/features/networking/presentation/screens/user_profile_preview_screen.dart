@@ -181,7 +181,7 @@ class _UserProfilePreviewScreenState extends State<UserProfilePreviewScreen> {
       child: Row(
         children: [
           Expanded(
-            child: ElevatedButton.icon(
+            child: CAREERBRIDGEdButton.icon(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -199,7 +199,7 @@ class _UserProfilePreviewScreenState extends State<UserProfilePreviewScreen> {
                 'Message',
                 style: GoogleFonts.outfit(fontWeight: FontWeight.bold),
               ),
-              style: ElevatedButton.styleFrom(
+              style: CAREERBRIDGEdButton.styleFrom(
                 backgroundColor: AppTheme.primaryColor,
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(vertical: 14),

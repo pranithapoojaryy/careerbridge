@@ -1482,7 +1482,7 @@ class _StudentProfileScreenState extends ConsumerState<StudentProfileScreen> {
             onPressed: () => Navigator.pop(context),
             child: const Text('Cancel'),
           ),
-          ElevatedButton(
+          CAREERBRIDGEdButton(
             onPressed: () {
               final newRecord = {
                 'institution': institutionController.text.trim(),
@@ -1502,7 +1502,7 @@ class _StudentProfileScreenState extends ConsumerState<StudentProfileScreen> {
               });
               Navigator.pop(context);
             },
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: AppTheme.primaryColor,
               foregroundColor: Colors.white,
             ),

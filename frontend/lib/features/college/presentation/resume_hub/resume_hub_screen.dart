@@ -531,13 +531,13 @@ class _ResumeHubScreenState extends ConsumerState<ResumeHubScreen> {
               style: GoogleFonts.outfit(color: Colors.grey),
             ),
           ),
-          ElevatedButton(
+          CAREERBRIDGEdButton(
             onPressed: () async {
               if (_feedbackController.text.trim().isEmpty) return;
               Navigator.pop(context);
               await _submitFeedback(studentId, _feedbackController.text.trim());
             },
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: AppTheme.primaryColor,
               foregroundColor: Colors.white,
               shape: RoundedRectangleBorder(

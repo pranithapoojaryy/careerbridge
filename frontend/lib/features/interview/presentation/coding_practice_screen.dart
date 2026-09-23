@@ -136,13 +136,13 @@ class _CodingPracticeScreenState extends ConsumerState<CodingPracticeScreen> {
             padding: const EdgeInsets.all(16),
             child: SizedBox(
               width: double.infinity,
-              child: ElevatedButton.icon(
+              child: CAREERBRIDGEdButton.icon(
                 onPressed: _isSubmitting ? null : _submitCode,
                 icon: const Icon(Icons.code),
                 label: _isSubmitting
                     ? const CircularProgressIndicator(color: Colors.white)
                     : const Text("Submit Solution"),
-                style: ElevatedButton.styleFrom(
+                style: CAREERBRIDGEdButton.styleFrom(
                   backgroundColor: Colors.indigo,
                   padding: const EdgeInsets.symmetric(vertical: 16),
                 ),

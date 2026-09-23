@@ -235,7 +235,7 @@ class _ManageContentScreenState extends ConsumerState<ManageContentScreen>
                 ),
                 Column(
                   children: [
-                    ElevatedButton.icon(
+                    CAREERBRIDGEdButton.icon(
                       onPressed: () => _pickFile(['mp4', 'mov', 'avi']),
                       icon: const Icon(Icons.upload_file),
                       label: material.Text(_selectedFileName ?? "Choose Video"),
@@ -244,7 +244,7 @@ class _ManageContentScreenState extends ConsumerState<ManageContentScreen>
                 ),
                 Column(
                   children: [
-                    ElevatedButton.icon(
+                    CAREERBRIDGEdButton.icon(
                       onPressed: () => _pickFile(['pdf']),
                       icon: const Icon(Icons.upload_file),
                       label: material.Text(_selectedFileName ?? "Choose PDF"),
@@ -254,9 +254,9 @@ class _ManageContentScreenState extends ConsumerState<ManageContentScreen>
               ],
             ),
           ),
-          ElevatedButton(
+          CAREERBRIDGEdButton(
             onPressed: _isLoading ? null : _uploadContent,
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: const Color(0xFF1A1F36),
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(vertical: 16),

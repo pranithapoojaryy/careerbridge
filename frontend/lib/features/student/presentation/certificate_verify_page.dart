@@ -314,7 +314,7 @@ class _CertificateVerifyPageState extends State<CertificateVerifyPage> {
 
           const SizedBox(height: 32),
           Text(
-            'Verified by CareerBridge\nelevate-hire-app.vercel.app',
+            'Verified by CareerBridge\ncareer-bridge-app.vercel.app',
             style: GoogleFonts.outfit(
               fontSize: 11, 
               color: const Color(0xFF94A3B8),

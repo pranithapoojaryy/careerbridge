@@ -287,11 +287,11 @@ class _AvailableMocksList extends ConsumerWidget {
                             SizedBox(height: isSmallScreen ? 12 : 16),
                             SizedBox(
                               width: double.infinity,
-                              child: ElevatedButton(
+                              child: CAREERBRIDGEdButton(
                                 onPressed: hasAttempted
                                     ? null
                                     : () => _startMock(context, ref, mock),
-                                style: ElevatedButton.styleFrom(
+                                style: CAREERBRIDGEdButton.styleFrom(
                                   backgroundColor: gradient[0],
                                   foregroundColor: Colors.white,
                                   padding: EdgeInsets.symmetric(

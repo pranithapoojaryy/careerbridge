@@ -260,7 +260,7 @@ class AppWrapper extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            ElevatedButton(
+                            CAREERBRIDGEdButton(
                               onPressed: () {
                                 // Restart the app
                                 Navigator.of(context).pushReplacement(
@@ -272,7 +272,7 @@ class AppWrapper extends StatelessWidget {
                               child: const Text('Retry'),
                             ),
                             const SizedBox(width: 16),
-                            ElevatedButton(
+                            CAREERBRIDGEdButton(
                               onPressed: () async {
                                 // Force logout and go to login
                                 await Supabase.instance.client.auth.signOut();
@@ -284,7 +284,7 @@ class AppWrapper extends StatelessWidget {
                                   );
                                 }
                               },
-                              style: ElevatedButton.styleFrom(
+                              style: CAREERBRIDGEdButton.styleFrom(
                                 backgroundColor: Colors.orange,
                               ),
                               child: const Text('Logout'),
@@ -335,7 +335,7 @@ class AppWrapper extends StatelessWidget {
                             style: Theme.of(context).textTheme.headlineSmall,
                           ),
                           const SizedBox(height: 16),
-                          ElevatedButton(
+                          CAREERBRIDGEdButton(
                             onPressed: () async {
                               await Supabase.instance.client.auth.signOut();
                               if (context.mounted) {

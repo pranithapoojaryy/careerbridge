@@ -225,11 +225,11 @@ class _GradeMockScreenState extends ConsumerState<GradeMockScreen> {
                                             ),
                                           ),
                                           const SizedBox(width: 12),
-                                          ElevatedButton.icon(
+                                          CAREERBRIDGEdButton.icon(
                                             onPressed: _downloadVideo,
                                             icon: const Icon(Icons.download_rounded, size: 18),
                                             label: const Text("Download"),
-                                            style: ElevatedButton.styleFrom(
+                                            style: CAREERBRIDGEdButton.styleFrom(
                                               backgroundColor: const Color(0xFF5A6ACF),
                                               foregroundColor: Colors.white,
                                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -369,9 +369,9 @@ class _GradeMockScreenState extends ConsumerState<GradeMockScreen> {
               ),
             ],
           ),
-          child: ElevatedButton(
+          child: CAREERBRIDGEdButton(
             onPressed: _isSaving ? null : _saveGrade,
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: const Color(0xFF1A1F36),
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(vertical: 18),

@@ -1,5 +1,5 @@
 -- =====================================================
--- ELEVATE HIRE - COMPREHENSIVE COLLEGE SCHEMA
+-- CAREERBRIDGE HIRE - COMPREHENSIVE COLLEGE SCHEMA
 -- =====================================================
 -- This file contains all database tables needed for the college-side features
 -- Run this after the basic setup files

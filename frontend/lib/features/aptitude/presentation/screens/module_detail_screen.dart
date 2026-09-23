@@ -224,9 +224,9 @@ class _ModuleDetailScreenState extends ConsumerState<ModuleDetailScreen> {
                         SizedBox(
                           width: double.infinity,
                           height: 60,
-                          child: ElevatedButton(
+                          child: CAREERBRIDGEdButton(
                             onPressed: _isStarting ? null : _startTest,
-                            style: ElevatedButton.styleFrom(
+                            style: CAREERBRIDGEdButton.styleFrom(
                               backgroundColor: moduleColor,
                               foregroundColor: Colors.white,
                               shape: RoundedRectangleBorder(

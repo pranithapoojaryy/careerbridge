@@ -187,11 +187,11 @@ class TestResultsScreen extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 height: 64,
-                child: ElevatedButton(
+                child: CAREERBRIDGEdButton(
                   onPressed: () {
                     Navigator.of(context).popUntil((route) => route.isFirst);
                   },
-                  style: ElevatedButton.styleFrom(
+                  style: CAREERBRIDGEdButton.styleFrom(
                     backgroundColor: AppTheme.textColor,
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(

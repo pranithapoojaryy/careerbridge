@@ -7,4 +7,4 @@ Allow: /college-register
 Allow: /recruiter-register
 
 # Sitemaps
-Sitemap: https://elevate-hire.vercel.app/sitemap.xml
+Sitemap: https://career-bridge.vercel.app/sitemap.xml

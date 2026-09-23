@@ -157,7 +157,7 @@ class AssignmentsListScreen extends ConsumerWidget {
                     },
                     child: const Text('View Results'),
                   )
-                : ElevatedButton(
+                : CAREERBRIDGEdButton(
                     onPressed: isExpired
                         ? null
                         : () {
@@ -168,7 +168,7 @@ class AssignmentsListScreen extends ConsumerWidget {
                               assignment.testId,
                             );
                           },
-                    style: ElevatedButton.styleFrom(
+                    style: CAREERBRIDGEdButton.styleFrom(
                       backgroundColor:
                           AppTheme.primaryColor, // Replaced primary
                       foregroundColor: Colors.white,

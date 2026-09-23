@@ -489,11 +489,11 @@ class _StudentEventsScreenState extends ConsumerState<StudentEventsScreen>
                                       : null,
                                   borderRadius: BorderRadius.circular(12),
                                 ),
-                                child: ElevatedButton(
+                                child: CAREERBRIDGEdButton(
                                   onPressed: isRegistered
                                       ? null
                                       : () => _registerForEvent(event['id']),
-                                  style: ElevatedButton.styleFrom(
+                                  style: CAREERBRIDGEdButton.styleFrom(
                                     backgroundColor: Colors.transparent,
                                     shadowColor: Colors.transparent,
                                     shape: RoundedRectangleBorder(

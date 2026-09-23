@@ -966,7 +966,7 @@ class _JobListingScreenState extends ConsumerState<JobListingScreen> {
                       const SizedBox(width: 6),
                       Expanded(
                         flex: 2,
-                        child: ElevatedButton(
+                        child: CAREERBRIDGEdButton(
                           onPressed: () {
                             if (hasApplied) {
                               Navigator.push(
@@ -982,7 +982,7 @@ class _JobListingScreenState extends ConsumerState<JobListingScreen> {
                               _applyForJob(job);
                             }
                           },
-                          style: ElevatedButton.styleFrom(
+                          style: CAREERBRIDGEdButton.styleFrom(
                             backgroundColor: hasApplied
                                 ? Colors.white
                                 : AppTheme.primaryColor,

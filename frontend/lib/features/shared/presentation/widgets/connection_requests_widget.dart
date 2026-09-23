@@ -222,9 +222,9 @@ class _ConnectionRequestsWidgetState
                 Expanded(
                   child: SizedBox(
                     height: 32,
-                    child: ElevatedButton(
+                    child: CAREERBRIDGEdButton(
                       onPressed: () => _handleRequest(connectionId, true),
-                      style: ElevatedButton.styleFrom(
+                      style: CAREERBRIDGEdButton.styleFrom(
                         padding: EdgeInsets.zero,
                         backgroundColor: const Color(0xFF2575FC),
                         foregroundColor: Colors.white,

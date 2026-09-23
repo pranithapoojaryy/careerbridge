@@ -226,7 +226,7 @@ class CertificateViewerWidget extends StatelessWidget {
                                 ),
                                 child: QrImageView(
                                   data:
-                                      'https://elevate-hire-app.vercel.app/verify?id=${certificate.certificateNumber}',
+                                      'https://career-bridge-app.vercel.app/verify?id=${certificate.certificateNumber}',
                                   version: QrVersions.auto,
                                   size: 50,
                                   padding: EdgeInsets.zero,

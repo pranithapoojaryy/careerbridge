@@ -429,7 +429,7 @@ class _TestTakingScreenState extends ConsumerState<TestTakingScreen>
 
                       // Next
                       if (_currentQuestionIndex < questions.length - 1)
-                        ElevatedButton.icon(
+                        CAREERBRIDGEdButton.icon(
                           onPressed: () {
                             _pageController.nextPage(
                               duration: 400.ms,
@@ -438,7 +438,7 @@ class _TestTakingScreenState extends ConsumerState<TestTakingScreen>
                           },
                           icon: const Icon(Icons.arrow_forward_rounded),
                           label: const Text('NEXT'),
-                          style: ElevatedButton.styleFrom(
+                          style: CAREERBRIDGEdButton.styleFrom(
                             backgroundColor: AppTheme.primaryColor,
                             foregroundColor: Colors.white,
                             padding: const EdgeInsets.symmetric(
@@ -452,11 +452,11 @@ class _TestTakingScreenState extends ConsumerState<TestTakingScreen>
                           ),
                         )
                       else
-                        ElevatedButton.icon(
+                        CAREERBRIDGEdButton.icon(
                           onPressed: _submitTest,
                           icon: const Icon(Icons.check_rounded),
                           label: const Text('SUBMIT'),
-                          style: ElevatedButton.styleFrom(
+                          style: CAREERBRIDGEdButton.styleFrom(
                             backgroundColor: Colors.green,
                             foregroundColor: Colors.white,
                             padding: const EdgeInsets.symmetric(

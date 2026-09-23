@@ -988,10 +988,10 @@ class _NetworkScreenState extends State<NetworkScreen>
           ? const Icon(Icons.check_circle, color: Colors.green)
           : status == 'pending'
           ? const Text('Pending', style: TextStyle(color: Colors.grey))
-          : ElevatedButton(
+          : CAREERBRIDGEdButton(
               onPressed: () =>
                   _handleConnectFromSearch(user['user_id'] ?? user['id']),
-              style: ElevatedButton.styleFrom(
+              style: CAREERBRIDGEdButton.styleFrom(
                 backgroundColor: AppTheme.primaryColor,
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(horizontal: 16),

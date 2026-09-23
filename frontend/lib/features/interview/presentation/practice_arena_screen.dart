@@ -187,7 +187,7 @@ class PracticeArenaScreen extends ConsumerWidget {
             border: Border.all(color: AppTheme.primaryColor.withValues(alpha: 0.2)),
           ),
           child: Text(
-            'ELEVATE YOUR SKILLS',
+            'CAREERBRIDGE YOUR SKILLS',
             style: GoogleFonts.outfit(
               fontSize: 12,
               fontWeight: FontWeight.bold,

@@ -241,7 +241,7 @@ class _ContentList extends ConsumerWidget {
                         SizedBox(
                           width: double.infinity,
                           height: 50,
-                          child: ElevatedButton.icon(
+                          child: CAREERBRIDGEdButton.icon(
                             onPressed: () => _openContent(context, item),
                             icon: Icon(_getActionIcon(item.type), size: 20),
                             label: Text(
@@ -251,7 +251,7 @@ class _ContentList extends ConsumerWidget {
                                 fontSize: 15,
                               ),
                             ),
-                            style: ElevatedButton.styleFrom(
+                            style: CAREERBRIDGEdButton.styleFrom(
                               backgroundColor: AppTheme.primaryColor
                                   .withValues(alpha: 0.1),
                               foregroundColor: AppTheme.secondaryColor,
@@ -723,7 +723,7 @@ class _PdfViewerDialogState extends State<_PdfViewerDialog> {
                                 ),
                               ),
                               const SizedBox(height: 20),
-                              ElevatedButton(
+                              CAREERBRIDGEdButton(
                                 onPressed: () {
                                   setState(() {
                                     _errorMessage = null;

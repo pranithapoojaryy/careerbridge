@@ -228,9 +228,9 @@ class _CreatePostDialogState extends State<CreatePostDialog> {
                     ),
                   ),
                   const SizedBox(width: 8),
-                  ElevatedButton(
+                  CAREERBRIDGEdButton(
                     onPressed: _isUploading ? null : _submitPost,
-                    style: ElevatedButton.styleFrom(
+                    style: CAREERBRIDGEdButton.styleFrom(
                       backgroundColor: AppTheme.primaryColor,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8),

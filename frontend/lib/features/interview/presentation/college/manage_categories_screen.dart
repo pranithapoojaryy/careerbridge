@@ -226,7 +226,7 @@ class _ManageCategoriesScreenState
                       ],
                     ),
                     const SizedBox(height: 20),
-                    ElevatedButton.icon(
+                    CAREERBRIDGEdButton.icon(
                       onPressed: _isLoading ? null : _addCategory,
                       icon: const Icon(Icons.add_rounded, size: 18),
                       label: _isLoading
@@ -245,7 +245,7 @@ class _ManageCategoriesScreenState
                                 letterSpacing: 1.0,
                               ),
                             ),
-                      style: ElevatedButton.styleFrom(
+                      style: CAREERBRIDGEdButton.styleFrom(
                         backgroundColor: const Color(0xFF1A1F36),
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(vertical: 16),

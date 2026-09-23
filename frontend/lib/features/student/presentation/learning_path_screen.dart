@@ -463,7 +463,7 @@ class _LearningPathScreenState extends ConsumerState<LearningPathScreen> {
                                           ],
                                         ),
                                       ),
-                                      ElevatedButton(
+                                      CAREERBRIDGEdButton(
                                         onPressed: () async {
                                           final user = Supabase
                                               .instance
@@ -521,7 +521,7 @@ class _LearningPathScreenState extends ConsumerState<LearningPathScreen> {
                                             }
                                           }
                                         },
-                                        style: ElevatedButton.styleFrom(
+                                        style: CAREERBRIDGEdButton.styleFrom(
                                           backgroundColor: Colors.white,
                                           foregroundColor: Colors.orange,
                                           padding: const EdgeInsets.symmetric(

@@ -212,11 +212,11 @@ class StudentCard extends StatelessWidget {
                   children: [
                     Expanded(
                       flex: 2,
-                      child: ElevatedButton.icon(
+                      child: CAREERBRIDGEdButton.icon(
                         onPressed: onMessage,
                         icon: const Icon(Icons.message_rounded, size: 16),
                         label: const Text('Message'),
-                        style: ElevatedButton.styleFrom(
+                        style: CAREERBRIDGEdButton.styleFrom(
                           backgroundColor: Colors.white,
                           foregroundColor: AppTheme.textColor,
                           elevation: 0,
@@ -236,14 +236,14 @@ class StudentCard extends StatelessWidget {
                     if (onVerify != null) ...[
                       Expanded(
                         flex: 2,
-                        child: ElevatedButton.icon(
+                        child: CAREERBRIDGEdButton.icon(
                           onPressed: onVerify,
                           icon: const Icon(
                             Icons.verified_user_outlined,
                             size: 16,
                           ),
                           label: const Text('Verify'),
-                          style: ElevatedButton.styleFrom(
+                          style: CAREERBRIDGEdButton.styleFrom(
                             backgroundColor: Colors.green.withValues(
                               alpha: 0.1,
                             ),

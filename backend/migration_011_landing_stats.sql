@@ -11,7 +11,7 @@ RETURNS TABLE (
     total_placements BIGINT
 ) 
 LANGUAGE plpgsql
-SECURITY DEFINER -- Runs with elevated privileges to count users
+SECURITY DEFINER -- Runs with CAREERBRIDGEd privileges to count users
 AS $$
 BEGIN
     RETURN QUERY

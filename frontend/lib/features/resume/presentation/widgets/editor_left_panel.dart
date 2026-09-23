@@ -51,7 +51,7 @@ class _StructureTab extends ConsumerWidget {
             ),
           ),
           const SizedBox(height: 8),
-          ElevatedButton.icon(
+          CAREERBRIDGEdButton.icon(
             onPressed: () async {
               final confirmed = await showDialog<bool>(
                 context: context,
@@ -86,7 +86,7 @@ class _StructureTab extends ConsumerWidget {
             },
             icon: const Icon(Icons.person_outline, size: 18),
             label: const Text('Import from Profile'),
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: Colors.blue.shade50,
               foregroundColor: Colors.blue.shade700,
               elevation: 0,
@@ -94,7 +94,7 @@ class _StructureTab extends ConsumerWidget {
           ),
           if (resumeUrl != null) ...[
             const SizedBox(height: 4),
-            ElevatedButton.icon(
+            CAREERBRIDGEdButton.icon(
               onPressed: () async {
                 final confirmed = await showDialog<bool>(
                   context: context,
@@ -137,7 +137,7 @@ class _StructureTab extends ConsumerWidget {
               },
               icon: const Icon(Icons.auto_awesome, size: 18),
               label: const Text('Sync with Uploaded PDF'),
-              style: ElevatedButton.styleFrom(
+              style: CAREERBRIDGEdButton.styleFrom(
                 backgroundColor: Colors.purple.shade50,
                 foregroundColor: Colors.purple.shade700,
                 elevation: 0,

@@ -56,9 +56,9 @@ class StudentSnapshotPanel extends StatelessWidget {
           const SizedBox(height: 24),
           SizedBox(
             width: double.infinity,
-            child: ElevatedButton(
+            child: CAREERBRIDGEdButton(
               onPressed: () {},
-              style: ElevatedButton.styleFrom(
+              style: CAREERBRIDGEdButton.styleFrom(
                 backgroundColor: AppTheme.primaryColor.withValues(alpha: 0.1),
                 foregroundColor: AppTheme.primaryColor,
                 elevation: 0,

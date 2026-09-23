@@ -1094,14 +1094,14 @@ class _CollegePublicProfileScreenState
                           SizedBox(
                             width: double.infinity,
                             height: 28,
-                            child: ElevatedButton(
+                            child: CAREERBRIDGEdButton(
                               onPressed: () => _navigateToNetworkProfile(
                                 context,
                                 userId,
                                 name,
                                 avatar,
                               ),
-                              style: ElevatedButton.styleFrom(
+                              style: CAREERBRIDGEdButton.styleFrom(
                                 backgroundColor: AppTheme.primaryColor,
                                 foregroundColor: Colors.white,
                                 elevation: 0,
@@ -1389,7 +1389,7 @@ class _CollegePublicProfileScreenState
                       SizedBox(
                         width: double.infinity,
                         height: 26,
-                        child: ElevatedButton(
+                        child: CAREERBRIDGEdButton(
                           onPressed: () {
                             if (userId != null) {
                               _navigateToNetworkProfile(
@@ -1400,7 +1400,7 @@ class _CollegePublicProfileScreenState
                               );
                             }
                           },
-                          style: ElevatedButton.styleFrom(
+                          style: CAREERBRIDGEdButton.styleFrom(
                             backgroundColor: AppTheme.primaryColor,
                             foregroundColor: Colors.white,
                             elevation: 0,

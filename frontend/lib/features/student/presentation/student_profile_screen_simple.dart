@@ -510,7 +510,7 @@ class _StudentProfileScreenSimpleState
                 ),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
+              CAREERBRIDGEdButton(
                 onPressed: () {
                   setState(() {
                     _isLoading = true;
@@ -1750,7 +1750,7 @@ class _StudentProfileScreenSimpleState
             onPressed: () => Navigator.pop(context),
             child: const Text('Cancel'),
           ),
-          ElevatedButton(
+          CAREERBRIDGEdButton(
             onPressed: () {
               final newRecord = {
                 'institution': institutionController.text.trim(),
@@ -1770,7 +1770,7 @@ class _StudentProfileScreenSimpleState
               });
               Navigator.pop(context);
             },
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: AppTheme.primaryColor,
               foregroundColor: Colors.white,
             ),

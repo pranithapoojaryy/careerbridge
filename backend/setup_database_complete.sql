@@ -1,5 +1,5 @@
 -- =====================================================
--- ELEVATE HIRE - COMPLETE DATABASE SETUP
+-- CAREERBRIDGE HIRE - COMPLETE DATABASE SETUP
 -- =====================================================
 -- This file runs all migrations in the correct order
 -- Execute this in your Supabase SQL Editor

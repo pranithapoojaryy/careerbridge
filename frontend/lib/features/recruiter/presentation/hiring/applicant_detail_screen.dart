@@ -782,11 +782,11 @@ class _ApplicantDetailScreenState extends ConsumerState<ApplicantDetailScreen>
                     ),
                   )
                 else if (type == 'video' && videoUrl != null)
-                  ElevatedButton.icon(
+                  CAREERBRIDGEdButton.icon(
                     onPressed: () => _playVideo(videoUrl),
                     icon: const Icon(Icons.play_circle_fill, size: 20),
                     label: const Text('Watch Video Response'),
-                    style: ElevatedButton.styleFrom(
+                    style: CAREERBRIDGEdButton.styleFrom(
                       backgroundColor: Colors.red.withValues(alpha: 0.1),
                       foregroundColor: Colors.red,
                       elevation: 0,

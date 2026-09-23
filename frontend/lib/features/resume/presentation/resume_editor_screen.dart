@@ -90,9 +90,9 @@ class _ResumeEditorScreenState extends ConsumerState<ResumeEditorScreen> {
             onPressed: () => Navigator.pop(context, false),
             child: const Text('Skip'),
           ),
-          ElevatedButton(
+          CAREERBRIDGEdButton(
             onPressed: () => Navigator.pop(context, true),
-            style: ElevatedButton.styleFrom(
+            style: CAREERBRIDGEdButton.styleFrom(
               backgroundColor: Colors.purple,
               foregroundColor: Colors.white,
             ),

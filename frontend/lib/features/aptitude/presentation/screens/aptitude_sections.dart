@@ -149,9 +149,9 @@ class PremiumTestCard extends StatelessWidget {
 
           SizedBox(
             width: double.infinity,
-            child: ElevatedButton(
+            child: CAREERBRIDGEdButton(
               onPressed: assignment.isAttempted ? null : onStart,
-              style: ElevatedButton.styleFrom(
+              style: CAREERBRIDGEdButton.styleFrom(
                 backgroundColor: assignment.isAttempted
                     ? Colors.grey.withValues(alpha: 0.3)
                     : accentColor,

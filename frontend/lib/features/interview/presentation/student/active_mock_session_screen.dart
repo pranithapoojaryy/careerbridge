@@ -266,12 +266,12 @@ class _ActiveMockSessionScreenState
                                   SizedBox(
                                     width: double.infinity,
                                     height: 50,
-                                    child: ElevatedButton(
+                                    child: CAREERBRIDGEdButton(
                                       onPressed: () => _submitAnswer(
                                         currentQ,
                                         questions.length,
                                       ),
-                                      style: ElevatedButton.styleFrom(
+                                      style: CAREERBRIDGEdButton.styleFrom(
                                         backgroundColor: Colors.blue.shade600,
                                         foregroundColor: Colors.white,
                                         shape: RoundedRectangleBorder(
@@ -410,7 +410,7 @@ class _ActiveMockSessionScreenState
             const SizedBox(height: 32),
             SizedBox(
               width: double.infinity,
-              child: ElevatedButton(
+              child: CAREERBRIDGEdButton(
                 onPressed: _isCameraInitialized
                     ? () async {
                         try {
@@ -442,7 +442,7 @@ class _ActiveMockSessionScreenState
                         }
                       }
                     : null, // Disable if not ready
-                style: ElevatedButton.styleFrom(
+                style: CAREERBRIDGEdButton.styleFrom(
                   backgroundColor: Colors.blue.shade800,
                   disabledBackgroundColor: Colors.grey,
                   padding: const EdgeInsets.symmetric(vertical: 16),

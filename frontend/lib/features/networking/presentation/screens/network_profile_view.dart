@@ -1845,11 +1845,11 @@ class _NetworkProfileViewState extends ConsumerState<NetworkProfileView>
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ElevatedButton.icon(
+              CAREERBRIDGEdButton.icon(
                 onPressed: () {}, // Already connected logic to be handled
                 icon: const Icon(Icons.check, size: 18),
                 label: const Text('Connected'),
-                style: ElevatedButton.styleFrom(
+                style: CAREERBRIDGEdButton.styleFrom(
                   backgroundColor: Colors.green,
                   foregroundColor: Colors.white,
                   shape: RoundedRectangleBorder(

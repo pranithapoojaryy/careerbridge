@@ -1,5 +1,5 @@
 -- =====================================================
--- ELEVATE HIRE - ADD COLLEGE FEATURES TO EXISTING DB
+-- CAREERBRIDGE HIRE - ADD COLLEGE FEATURES TO EXISTING DB
 -- =====================================================
 -- This migration adds college features to your existing schema
 

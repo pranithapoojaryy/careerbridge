@@ -338,11 +338,11 @@ class EmptyState extends StatelessWidget {
             ),
             if (actionLabel != null && onAction != null) ...[
               SizedBox(height: isSmallScreen ? 24 : 32),
-              ElevatedButton.icon(
+              CAREERBRIDGEdButton.icon(
                 onPressed: onAction,
                 icon: const Icon(Icons.add),
                 label: Text(actionLabel!),
-                style: ElevatedButton.styleFrom(
+                style: CAREERBRIDGEdButton.styleFrom(
                   backgroundColor: const Color(0xFF6EC9F5),
                   foregroundColor: Colors.white,
                   padding: EdgeInsets.symmetric(

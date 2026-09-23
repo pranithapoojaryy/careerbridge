@@ -527,7 +527,7 @@ async function validateCareerBridge(supabase: any, certificateId: string, certif
   }
 
   // Determine if it represents the expected URL format
-  if (certificateUrl && !certificateUrl.includes('elevate-hire-app.vercel.app/verify/')) {
+  if (certificateUrl && !certificateUrl.includes('career-bridge-app.vercel.app/verify/')) {
     // Only warn if they provided a URL that points elsewhere
     console.warn('CareerBridge URL is unusual:', certificateUrl);
   }

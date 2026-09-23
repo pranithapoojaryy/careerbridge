@@ -204,7 +204,7 @@ class _RecruiterProfileViewState extends State<RecruiterProfileView>
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 16),
-                  ElevatedButton(
+                  CAREERBRIDGEdButton(
                     onPressed: _loadRecruiterData,
                     child: const Text('Retry'),
                   ),
@@ -675,7 +675,7 @@ class _RecruiterProfileViewState extends State<RecruiterProfileView>
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             child: SizedBox(
               width: double.infinity,
-              child: ElevatedButton(
+              child: CAREERBRIDGEdButton(
                 onPressed: _currentUserRole == 'college_admin'
                     ? null // Disable for college admins
                     : () {
@@ -687,7 +687,7 @@ class _RecruiterProfileViewState extends State<RecruiterProfileView>
                           ),
                         );
                       },
-                style: ElevatedButton.styleFrom(
+                style: CAREERBRIDGEdButton.styleFrom(
                   backgroundColor: AppTheme.primaryColor,
                   foregroundColor: Colors.white,
                   disabledBackgroundColor: Colors.grey.shade200,

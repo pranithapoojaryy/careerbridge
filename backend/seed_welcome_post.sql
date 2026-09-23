@@ -16,7 +16,7 @@ BEGIN
             v_author_id, 
             'CareerBridge Team', 
             'admin', 
-            'https://ui-avatars.com/api/?name=Elevate+Hire&background=0D8ABC&color=fff'
+            'https://ui-avatars.com/api/?name=CAREERBRIDGE+Hire&background=0D8ABC&color=fff'
         )
         ON CONFLICT (id) DO NOTHING;
 
@@ -35,7 +35,7 @@ BEGIN
                 'Welcome to CareerBridge! 🚀
 
 We are thrilled to launch this platform dedicated to students and recruiters. 
-Connect with peers, showcase your verified skills, and elevate your career to new heights.
+Connect with peers, showcase your verified skills, and CAREERBRIDGE your career to new heights.
 
 Stay tuned for upcoming hackathons and exclusive job drives!
 

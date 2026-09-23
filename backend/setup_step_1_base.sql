@@ -1,5 +1,5 @@
 -- =====================================================
--- ELEVATE HIRE - STEP 1: BASE TABLES
+-- CAREERBRIDGE HIRE - STEP 1: BASE TABLES
 -- =====================================================
 -- Run this FIRST in your Supabase SQL Editor
 

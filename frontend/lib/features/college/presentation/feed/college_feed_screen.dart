@@ -169,7 +169,7 @@ class _CollegeFeedScreenState extends ConsumerState<CollegeFeedScreen> {
                 child: Row(
                   children: [
                     Text(
-                      'Elevate',
+                      'CAREERBRIDGE',
                       style: GoogleFonts.outfit(
                         fontSize: 14,
                         fontWeight: FontWeight.w600,

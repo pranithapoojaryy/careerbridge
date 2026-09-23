@@ -226,9 +226,9 @@ class _FacultyReviewScreenState extends ConsumerState<FacultyReviewScreen> {
                   const SizedBox(height: 24),
                   SizedBox(
                     width: double.infinity,
-                    child: ElevatedButton(
+                    child: CAREERBRIDGEdButton(
                       onPressed: _isLoading ? null : _submitReview,
-                      style: ElevatedButton.styleFrom(
+                      style: CAREERBRIDGEdButton.styleFrom(
                         backgroundColor: Colors.green,
                         padding: const EdgeInsets.symmetric(vertical: 16),
                       ),
